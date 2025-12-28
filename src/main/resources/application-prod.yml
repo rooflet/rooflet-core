@@ -1,0 +1,48 @@
+spring:
+  application:
+    name: rooflet-core
+  datasource:
+    url: ${SPRING_DATASOURCE_URL}
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: ${SPRING_DATASOURCE_USERNAME:root}
+    password: ${SPRING_DATASOURCE_PASSWORD:}
+  jpa:
+    hibernate:
+      ddl-auto: validate
+    show-sql: false
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQLDialect
+        format_sql: false
+  session:
+    store-type: jdbc
+  flyway:
+    enabled: false  # Disable Flyway - using init-db scripts instead
+
+logging:
+  level:
+    root: WARN
+    com.rooflet: INFO
+    org.springframework.security: WARN
+
+server:
+  port: 8080
+  servlet:
+    session:
+      timeout: 30m
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info
+  endpoint:
+    health:
+      show-details: when-authorized
+
+# Swagger/OpenAPI Configuration - disabled in production
+springdoc:
+  api-docs:
+    enabled: false
+  swagger-ui:
+    enabled: false
