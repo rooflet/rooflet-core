@@ -9,18 +9,18 @@
 -- Insert sample users
 -- User 1: testuser@test.com
 INSERT INTO users (id, full_name, email, password, created_at, updated_at) VALUES
-('11111111-1111-1111-1111-111111111111', 'U1 Robert Kraft', 'testuser@test.com', '$2a$12$OSploWe43Vi.qVlTVA/One96iuaIpoLq1/Msqk/dY8NmPrNGHpxxO', NOW(), NOW());
+('11111111-1111-1111-1111-111111111111', 'Test User', 'testuser@test.com', '$2a$12$OSploWe43Vi.qVlTVA/One96iuaIpoLq1/Msqk/dY8NmPrNGHpxxO', NOW(), NOW());
 -- Password is 'password123' hashed with BCrypt cost factor 12
 
 -- User 2: testuser1@test.com
 INSERT INTO users (id, full_name, email, password, created_at, updated_at) VALUES
-('22222222-2222-2222-2222-222222222222', 'U2 John Smith', 'testuser1@test.com', '$2a$12$OSploWe43Vi.qVlTVA/One96iuaIpoLq1/Msqk/dY8NmPrNGHpxxO', NOW(), NOW());
+('22222222-2222-2222-2222-222222222222', 'Test User 1', 'testuser1@test.com', '$2a$12$OSploWe43Vi.qVlTVA/One96iuaIpoLq1/Msqk/dY8NmPrNGHpxxO', NOW(), NOW());
 -- Password is 'password123' hashed with BCrypt cost factor 12
 
 -- Create default portfolios for users
 INSERT INTO portfolios (id, name, description, archived, created_at, updated_at) VALUES
-('33333333-3333-3333-3333-333333333333', 'U1 Robert Kraft''s Portfolio', 'Default portfolio created during migration', FALSE, NOW(), NOW()),
-('44444444-4444-4444-4444-444444444444', 'U2 John Smith''s Portfolio', 'Default portfolio created during migration', FALSE, NOW(), NOW());
+('33333333-3333-3333-3333-333333333333', 'Test User Portfolio', 'Default portfolio created during migration', FALSE, NOW(), NOW()),
+('44444444-4444-4444-4444-444444444444', 'Test User1 Portfolio', 'Default portfolio created during migration', FALSE, NOW(), NOW());
 
 -- Add users as OWNER of their default portfolios
 INSERT INTO portfolio_members (id, portfolio_id, user_id, role, created_at) VALUES
