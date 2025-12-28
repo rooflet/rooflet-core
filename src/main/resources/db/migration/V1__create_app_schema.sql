@@ -222,9 +222,7 @@ CREATE TABLE market_listings (
     next_open_house_start TIMESTAMP,                -- Next open house start time
     next_open_house_end TIMESTAMP,                  -- Next open house end time
 
-    -- Additional flags and metadata
-    is_favorite BOOLEAN DEFAULT FALSE,              -- User favorited flag
-    is_interested BOOLEAN DEFAULT FALSE,            -- User interested flag
+    -- Additional metadata
     raw_data TEXT,                                  -- JSON/text storage for additional source-specific fields
 
     -- Audit fields
@@ -246,4 +244,72 @@ CREATE INDEX idx_market_listings_bedrooms_bathrooms ON market_listings(bedrooms,
 CREATE INDEX idx_market_listings_scraped_at ON market_listings(last_scraped_at);
 CREATE INDEX idx_market_listings_days_on_market ON market_listings(days_on_market);
 CREATE INDEX idx_market_listings_coordinates ON market_listings(latitude, longitude);
+
+-- Create user_market_listing_preferences table (bridge table for user-specific interested flags)
+CREATE TABLE user_market_listing_preferences (
+    user_id UUID NOT NULL,
+    listing_id UUID NOT NULL,
+
+    -- User preference flag
+    is_interested BOOLEAN DEFAULT FALSE NOT NULL,
+
+    -- Optional notes
+    notes VARCHAR(2000),
+
+    -- Audit fields
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP NOT NULL,
+    updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP NOT NULL,
+
+    -- Composite primary key
+    PRIMARY KEY (user_id, listing_id),
+
+    -- Foreign key constraints with cascade delete
+    CONSTRAINT fk_user_ml_pref_user FOREIGN KEY (user_id) REFERENCES users(id) ON DELETE CASCADE,
+    CONSTRAINT fk_user_ml_pref_listing FOREIGN KEY (listing_id) REFERENCES market_listings(id) ON DELETE CASCADE
+);
+
+-- Create user_market_listing_lists table (custom lists for organizing market listings)
+CREATE TABLE user_market_listing_lists (
+    id UUID PRIMARY KEY,
+    user_id UUID NOT NULL,
+
+    -- List details
+    name VARCHAR(255) NOT NULL,
+    description VARCHAR(1000),
+    color VARCHAR(20),                              -- Hex color code or named color
+
+    -- Audit fields
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP NOT NULL,
+    updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP NOT NULL,
+
+    -- Foreign key constraint with cascade delete
+    CONSTRAINT fk_user_ml_lists_user FOREIGN KEY (user_id) REFERENCES users(id) ON DELETE CASCADE
+);
+
+-- Create user_market_listing_list_items table (join table between lists and listings)
+CREATE TABLE user_market_listing_list_items (
+    list_id UUID NOT NULL,
+    listing_id UUID NOT NULL,
+
+    -- Audit field
+    added_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP NOT NULL,
+
+    -- Composite primary key
+    PRIMARY KEY (list_id, listing_id),
+
+    -- Foreign key constraints with cascade delete
+    CONSTRAINT fk_user_ml_list_items_list FOREIGN KEY (list_id) REFERENCES user_market_listing_lists(id) ON DELETE CASCADE,
+    CONSTRAINT fk_user_ml_list_items_listing FOREIGN KEY (listing_id) REFERENCES market_listings(id) ON DELETE CASCADE
+);
+
+-- Create indexes for user_market_listing_preferences
+CREATE INDEX idx_user_ml_pref_user ON user_market_listing_preferences(user_id);
+CREATE INDEX idx_user_ml_pref_interested ON user_market_listing_preferences(is_interested);
+
+-- Create indexes for user_market_listing_lists
+CREATE INDEX idx_user_ml_lists_user ON user_market_listing_lists(user_id);
+
+-- Create indexes for user_market_listing_list_items
+CREATE INDEX idx_user_ml_list_items_list ON user_market_listing_list_items(list_id);
+CREATE INDEX idx_user_ml_list_items_listing ON user_market_listing_list_items(listing_id);
 

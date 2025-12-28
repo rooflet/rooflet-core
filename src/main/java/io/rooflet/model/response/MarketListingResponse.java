@@ -112,11 +112,6 @@ public class MarketListingResponse {
     @Schema(description = "Next open house end time")
     private LocalDateTime nextOpenHouseEnd;
 
-    @Schema(description = "User favorited flag", example = "false")
-    private Boolean isFavorite;
-
-    @Schema(description = "User interested flag", example = "false")
-    private Boolean isInterested;
 
     @Schema(description = "JSON/text storage for additional source-specific fields")
     private String rawData;
@@ -166,8 +161,6 @@ public class MarketListingResponse {
                 .hoaFee(listing.getHoaFee())
                 .nextOpenHouseStart(listing.getNextOpenHouseStart())
                 .nextOpenHouseEnd(listing.getNextOpenHouseEnd())
-                .isFavorite(listing.getIsFavorite())
-                .isInterested(listing.getIsInterested())
                 .rawData(listing.getRawData())
                 .createdAt(listing.getCreatedAt())
                 .updatedAt(listing.getUpdatedAt())

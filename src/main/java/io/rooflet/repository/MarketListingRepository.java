@@ -22,13 +22,6 @@ public interface MarketListingRepository extends JpaRepository<MarketListing, UU
     // Find by source
     List<MarketListing> findBySource(String source);
 
-    // Find favorites
-    @Query("SELECT m FROM MarketListing m WHERE m.isFavorite = true")
-    List<MarketListing> findFavorites();
-
-    // Find interested
-    @Query("SELECT m FROM MarketListing m WHERE m.isInterested = true")
-    List<MarketListing> findInterested();
 
     // Find by price range
     @Query("SELECT m FROM MarketListing m WHERE m.price BETWEEN :minPrice AND :maxPrice")

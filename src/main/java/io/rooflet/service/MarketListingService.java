@@ -1,7 +1,9 @@
 package io.rooflet.service;
 
 import io.rooflet.model.entity.MarketListing;
+import io.rooflet.model.entity.UserMarketListingPreference;
 import io.rooflet.repository.MarketListingRepository;
+import io.rooflet.repository.UserMarketListingPreferenceRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
@@ -16,6 +18,7 @@ import java.util.UUID;
 public class MarketListingService {
 
     private final MarketListingRepository marketListingRepository;
+    private final UserMarketListingPreferenceRepository preferenceRepository;
 
     @Transactional(readOnly = true)
     public List<MarketListing> getAllMarketListings() {
@@ -27,40 +30,41 @@ public class MarketListingService {
         return marketListingRepository.findById(id)
                 .orElseThrow(() -> new IllegalArgumentException("Market listing not found with ID: " + id));
     }
-    // Favorite operations
-    public MarketListing toggleFavorite(UUID id) {
-        MarketListing listing = findById(id);
-        listing.setIsFavorite(!listing.getIsFavorite());
-        return marketListingRepository.save(listing);
+
+    // User-specific preference operations
+    public UserMarketListingPreference setInterested(UUID userId, UUID listingId, boolean isInterested) {
+        UserMarketListingPreference preference = preferenceRepository
+                .findByUserIdAndListingId(userId, listingId)
+                .orElse(UserMarketListingPreference.builder()
+                        .userId(userId)
+                        .listingId(listingId)
+                        .build());
+
+        preference.setIsInterested(isInterested);
+        return preferenceRepository.save(preference);
     }
 
-    public MarketListing setFavorite(UUID id, boolean isFavorite) {
-        MarketListing listing = findById(id);
-        listing.setIsFavorite(isFavorite);
-        return marketListingRepository.save(listing);
-    }
+    public UserMarketListingPreference toggleInterested(UUID userId, UUID listingId) {
+        UserMarketListingPreference preference = preferenceRepository
+                .findByUserIdAndListingId(userId, listingId)
+                .orElse(UserMarketListingPreference.builder()
+                        .userId(userId)
+                        .listingId(listingId)
+                        .isInterested(false)
+                        .build());
 
-    @Transactional(readOnly = true)
-    public List<MarketListing> getFavorites() {
-        return marketListingRepository.findFavorites();
-    }
-
-    // Interested operations
-    public MarketListing toggleInterested(UUID id) {
-        MarketListing listing = findById(id);
-        listing.setIsInterested(!listing.getIsInterested());
-        return marketListingRepository.save(listing);
-    }
-
-    public MarketListing setInterested(UUID id, boolean isInterested) {
-        MarketListing listing = findById(id);
-        listing.setIsInterested(isInterested);
-        return marketListingRepository.save(listing);
+        preference.setIsInterested(!preference.getIsInterested());
+        return preferenceRepository.save(preference);
     }
 
     @Transactional(readOnly = true)
-    public List<MarketListing> getInterested() {
-        return marketListingRepository.findInterested();
+    public List<UserMarketListingPreference> getInterested(UUID userId) {
+        return preferenceRepository.findInterestedByUserId(userId);
+    }
+
+    @Transactional(readOnly = true)
+    public UserMarketListingPreference getPreference(UUID userId, UUID listingId) {
+        return preferenceRepository.findByUserIdAndListingId(userId, listingId).orElse(null);
     }
 
     // Filter operations

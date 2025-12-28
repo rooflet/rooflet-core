@@ -1,7 +1,10 @@
 package io.rooflet.controller;
 
 import io.rooflet.model.entity.MarketListing;
+import io.rooflet.model.entity.UserMarketListingPreference;
 import io.rooflet.model.response.MarketListingResponse;
+import io.rooflet.model.response.MarketListingWithPreferenceResponse;
+import io.rooflet.service.AuthenticationService;
 import io.rooflet.service.MarketListingService;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.Parameter;
@@ -27,6 +30,7 @@ import java.util.UUID;
 public class MarketListingController {
 
     private final MarketListingService marketListingService;
+    private final AuthenticationService authenticationService;
 
     @Operation(summary = "Get all market listings", description = "Retrieves a list of all market listings")
     @ApiResponses(value = {
@@ -61,108 +65,64 @@ public class MarketListingController {
         }
     }
 
-    // Favorite operations
-    @Operation(summary = "Toggle favorite status", description = "Toggles the favorite flag for a market listing")
-    @ApiResponses(value = {
-            @ApiResponse(responseCode = "200", description = "Favorite status toggled successfully",
-                    content = @Content(mediaType = "application/json", schema = @Schema(implementation = MarketListingResponse.class))),
-            @ApiResponse(responseCode = "404", description = "Market listing not found")
-    })
-    @PostMapping("/{id}/favorite/toggle")
-    public ResponseEntity<MarketListingResponse> toggleFavorite(
-            @Parameter(description = "Market listing ID", example = "fe1bdb55-f73e-48f1-859d-25b60d169050")
-            @PathVariable UUID id) {
-        try {
-            MarketListing listing = marketListingService.toggleFavorite(id);
-            return ResponseEntity.ok(MarketListingResponse.from(listing));
-        } catch (IllegalArgumentException e) {
-            return ResponseEntity.notFound().build();
-        }
-    }
-
-    @Operation(summary = "Set favorite status", description = "Sets the favorite flag for a market listing to a specific value")
-    @ApiResponses(value = {
-            @ApiResponse(responseCode = "200", description = "Favorite status set successfully",
-                    content = @Content(mediaType = "application/json", schema = @Schema(implementation = MarketListingResponse.class))),
-            @ApiResponse(responseCode = "404", description = "Market listing not found")
-    })
-    @PutMapping("/{id}/favorite")
-    public ResponseEntity<MarketListingResponse> setFavorite(
-            @Parameter(description = "Market listing ID", example = "fe1bdb55-f73e-48f1-859d-25b60d169050")
-            @PathVariable UUID id,
-            @Parameter(description = "Favorite status", example = "true")
-            @RequestParam boolean isFavorite) {
-        try {
-            MarketListing listing = marketListingService.setFavorite(id, isFavorite);
-            return ResponseEntity.ok(MarketListingResponse.from(listing));
-        } catch (IllegalArgumentException e) {
-            return ResponseEntity.notFound().build();
-        }
-    }
-
-    @Operation(summary = "Get all favorite listings", description = "Retrieves all market listings marked as favorites")
-    @ApiResponses(value = {
-            @ApiResponse(responseCode = "200", description = "Favorite listings retrieved successfully",
-                    content = @Content(mediaType = "application/json", schema = @Schema(implementation = MarketListingResponse.class)))
-    })
-    @GetMapping("/favorites")
-    public ResponseEntity<List<MarketListingResponse>> getFavorites() {
-        List<MarketListing> listings = marketListingService.getFavorites();
-        List<MarketListingResponse> responses = listings.stream()
-                .map(MarketListingResponse::from)
-                .toList();
-        return ResponseEntity.ok(responses);
-    }
 
     // Interested operations
-    @Operation(summary = "Toggle interested status", description = "Toggles the interested flag for a market listing")
+    @Operation(summary = "Toggle interested status", description = "Toggles the interested flag for a market listing for the current user")
     @ApiResponses(value = {
             @ApiResponse(responseCode = "200", description = "Interested status toggled successfully",
-                    content = @Content(mediaType = "application/json", schema = @Schema(implementation = MarketListingResponse.class))),
+                    content = @Content(mediaType = "application/json", schema = @Schema(implementation = MarketListingWithPreferenceResponse.class))),
             @ApiResponse(responseCode = "404", description = "Market listing not found")
     })
     @PostMapping("/{id}/interested/toggle")
-    public ResponseEntity<MarketListingResponse> toggleInterested(
+    public ResponseEntity<MarketListingWithPreferenceResponse> toggleInterested(
             @Parameter(description = "Market listing ID", example = "fe1bdb55-f73e-48f1-859d-25b60d169050")
             @PathVariable UUID id) {
         try {
-            MarketListing listing = marketListingService.toggleInterested(id);
-            return ResponseEntity.ok(MarketListingResponse.from(listing));
+            UUID userId = authenticationService.getCurrentUserId();
+            MarketListing listing = marketListingService.findById(id);
+            UserMarketListingPreference preference = marketListingService.toggleInterested(userId, id);
+            return ResponseEntity.ok(MarketListingWithPreferenceResponse.from(listing, preference));
         } catch (IllegalArgumentException e) {
             return ResponseEntity.notFound().build();
         }
     }
 
-    @Operation(summary = "Set interested status", description = "Sets the interested flag for a market listing to a specific value")
+    @Operation(summary = "Set interested status", description = "Sets the interested flag for a market listing to a specific value for the current user")
     @ApiResponses(value = {
             @ApiResponse(responseCode = "200", description = "Interested status set successfully",
-                    content = @Content(mediaType = "application/json", schema = @Schema(implementation = MarketListingResponse.class))),
+                    content = @Content(mediaType = "application/json", schema = @Schema(implementation = MarketListingWithPreferenceResponse.class))),
             @ApiResponse(responseCode = "404", description = "Market listing not found")
     })
     @PutMapping("/{id}/interested")
-    public ResponseEntity<MarketListingResponse> setInterested(
+    public ResponseEntity<MarketListingWithPreferenceResponse> setInterested(
             @Parameter(description = "Market listing ID", example = "fe1bdb55-f73e-48f1-859d-25b60d169050")
             @PathVariable UUID id,
             @Parameter(description = "Interested status", example = "true")
             @RequestParam boolean isInterested) {
         try {
-            MarketListing listing = marketListingService.setInterested(id, isInterested);
-            return ResponseEntity.ok(MarketListingResponse.from(listing));
+            UUID userId = authenticationService.getCurrentUserId();
+            MarketListing listing = marketListingService.findById(id);
+            UserMarketListingPreference preference = marketListingService.setInterested(userId, id, isInterested);
+            return ResponseEntity.ok(MarketListingWithPreferenceResponse.from(listing, preference));
         } catch (IllegalArgumentException e) {
             return ResponseEntity.notFound().build();
         }
     }
 
-    @Operation(summary = "Get all interested listings", description = "Retrieves all market listings marked as interested")
+    @Operation(summary = "Get all interested listings", description = "Retrieves all market listings marked as interested by the current user")
     @ApiResponses(value = {
             @ApiResponse(responseCode = "200", description = "Interested listings retrieved successfully",
-                    content = @Content(mediaType = "application/json", schema = @Schema(implementation = MarketListingResponse.class)))
+                    content = @Content(mediaType = "application/json", schema = @Schema(implementation = MarketListingWithPreferenceResponse.class)))
     })
     @GetMapping("/interested")
-    public ResponseEntity<List<MarketListingResponse>> getInterested() {
-        List<MarketListing> listings = marketListingService.getInterested();
-        List<MarketListingResponse> responses = listings.stream()
-                .map(MarketListingResponse::from)
+    public ResponseEntity<List<MarketListingWithPreferenceResponse>> getInterested() {
+        UUID userId = authenticationService.getCurrentUserId();
+        List<UserMarketListingPreference> preferences = marketListingService.getInterested(userId);
+        List<MarketListingWithPreferenceResponse> responses = preferences.stream()
+                .map(pref -> {
+                    MarketListing listing = marketListingService.findById(pref.getListingId());
+                    return MarketListingWithPreferenceResponse.from(listing, pref);
+                })
                 .toList();
         return ResponseEntity.ok(responses);
     }
