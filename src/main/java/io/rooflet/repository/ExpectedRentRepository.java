@@ -44,12 +44,5 @@ public interface ExpectedRentRepository extends JpaRepository<ExpectedRent, UUID
     @Query(value = "SELECT DISTINCT ON (bedrooms) * FROM expected_rent WHERE zip_code = :zipCode " +
             "ORDER BY bedrooms ASC, effective_date DESC", nativeQuery = true)
     List<ExpectedRent> findLatestByZipCode(@Param("zipCode") String zipCode);
-
-    /**
-     * Find all expected rents effective on or before a specific date
-     */
-    @Query(value = "SELECT * FROM expected_rent WHERE effective_date <= :effectiveDate " +
-            "ORDER BY zip_code, bedrooms, effective_date DESC", nativeQuery = true)
-    List<ExpectedRent> findByEffectiveDateBefore(@Param("effectiveDate") LocalDate effectiveDate);
 }
 

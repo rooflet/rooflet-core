@@ -86,24 +86,5 @@ public class ExpectedRentController {
                 .toList();
         return ResponseEntity.ok(responses);
     }
-
-    @Operation(summary = "Get expected rents by effective date",
-            description = "Retrieves expected rent records effective on or before a specific date")
-    @ApiResponses(value = {
-            @ApiResponse(responseCode = "200", description = "Expected rents retrieved successfully",
-                    content = @Content(mediaType = "application/json",
-                    schema = @Schema(implementation = ExpectedRentResponse.class)))
-    })
-    @GetMapping("/effective-date")
-    public ResponseEntity<List<ExpectedRentResponse>> getExpectedRentsByEffectiveDate(
-            @Parameter(description = "Effective date", example = "2025-07-01")
-            @RequestParam @DateTimeFormat(iso = DateTimeFormat.ISO.DATE) LocalDate effectiveDate) {
-
-        List<ExpectedRent> expectedRents = expectedRentService.getExpectedRentsByEffectiveDate(effectiveDate);
-        List<ExpectedRentResponse> responses = expectedRents.stream()
-                .map(ExpectedRentResponse::from)
-                .toList();
-        return ResponseEntity.ok(responses);
-    }
 }
 

@@ -62,13 +62,5 @@ public class ExpectedRentService {
         log.debug("Finding latest expected rents for zip code: {}", zipCode);
         return expectedRentRepository.findLatestByZipCode(zipCode);
     }
-
-    /**
-     * Get expected rents effective on or before a specific date
-     */
-    public List<ExpectedRent> getExpectedRentsByEffectiveDate(LocalDate effectiveDate) {
-        log.debug("Finding expected rents effective on or before: {}", effectiveDate);
-        return expectedRentRepository.findByEffectiveDateBefore(effectiveDate);
-    }
 }
 
