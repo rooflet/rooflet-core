@@ -1622,3 +1622,473 @@ INSERT INTO expected_rent (id, zip_code, bedrooms, expected_rent, source, effect
 (gen_random_uuid(), '02360', 4, 3578.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
 (gen_random_uuid(), '02360', 5, 4114.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
 (gen_random_uuid(), '02360', 6, 4650.00, 'Boston Housing Authority Payment Standard', '2025-07-01');
+
+-- Plympton 02367
+INSERT INTO expected_rent (id, zip_code, bedrooms, expected_rent, source, effective_date) VALUES
+(gen_random_uuid(), '02367', 0, 2101.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '02367', 1, 2248.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '02367', 2, 2678.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '02367', 3, 3235.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '02367', 4, 3561.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '02367', 5, 4094.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '02367', 6, 4629.00, 'Boston Housing Authority Payment Standard', '2025-07-01');
+
+-- Quincy 02169
+INSERT INTO expected_rent (id, zip_code, bedrooms, expected_rent, source, effective_date) VALUES
+(gen_random_uuid(), '02169', 0, 2324.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '02169', 1, 2497.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '02169', 2, 2969.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '02169', 3, 3590.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '02169', 4, 3955.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '02169', 5, 4547.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '02169', 6, 5140.00, 'Boston Housing Authority Payment Standard', '2025-07-01');
+
+-- Quincy 02170
+INSERT INTO expected_rent (id, zip_code, bedrooms, expected_rent, source, effective_date) VALUES
+(gen_random_uuid(), '02170', 0, 2324.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '02170', 1, 2497.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '02170', 2, 2969.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '02170', 3, 3590.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '02170', 4, 3955.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '02170', 5, 4547.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '02170', 6, 5140.00, 'Boston Housing Authority Payment Standard', '2025-07-01');
+
+-- Quincy 02171
+INSERT INTO expected_rent (id, zip_code, bedrooms, expected_rent, source, effective_date) VALUES
+(gen_random_uuid(), '02171', 0, 2334.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '02171', 1, 2508.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '02171', 2, 2982.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '02171', 3, 3606.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '02171', 4, 3972.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '02171', 5, 4567.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '02171', 6, 5163.00, 'Boston Housing Authority Payment Standard', '2025-07-01');
+
+-- Randolph 02368
+INSERT INTO expected_rent (id, zip_code, bedrooms, expected_rent, source, effective_date) VALUES
+(gen_random_uuid(), '02368', 0, 2102.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '02368', 1, 2259.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '02368', 2, 2686.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '02368', 3, 3248.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '02368', 4, 3578.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '02368', 5, 4114.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '02368', 6, 4650.00, 'Boston Housing Authority Payment Standard', '2025-07-01');
+
+-- Raynham 02767
+INSERT INTO expected_rent (id, zip_code, bedrooms, expected_rent, source, effective_date) VALUES
+(gen_random_uuid(), '02767', 0, 1985.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '02767', 1, 1999.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '02767', 2, 2625.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '02767', 3, 3175.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '02767', 4, 3850.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '02767', 5, 4408.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '02767', 6, 4983.00, 'Boston Housing Authority Payment Standard', '2025-07-01');
+
+-- Reading 01867
+INSERT INTO expected_rent (id, zip_code, bedrooms, expected_rent, source, effective_date) VALUES
+(gen_random_uuid(), '01867', 0, 2324.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '01867', 1, 2497.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '01867', 2, 2969.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '01867', 3, 3590.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '01867', 4, 3955.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '01867', 5, 4547.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '01867', 6, 5140.00, 'Boston Housing Authority Payment Standard', '2025-07-01');
+
+-- Rehoboth 02769
+INSERT INTO expected_rent (id, zip_code, bedrooms, expected_rent, source, effective_date) VALUES
+(gen_random_uuid(), '02769', 0, 1300.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '02769', 1, 1391.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '02769', 2, 1701.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '02769', 3, 2050.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '02769', 4, 2487.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '02769', 5, 2859.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '02769', 6, 3232.00, 'Boston Housing Authority Payment Standard', '2025-07-01');
+
+-- Revere 02151
+INSERT INTO expected_rent (id, zip_code, bedrooms, expected_rent, source, effective_date) VALUES
+(gen_random_uuid(), '02151', 0, 2102.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '02151', 1, 2259.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '02151', 2, 2686.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '02151', 3, 3248.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '02151', 4, 3578.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '02151', 5, 4114.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '02151', 6, 4650.00, 'Boston Housing Authority Payment Standard', '2025-07-01');
+
+-- Rochester 02770
+INSERT INTO expected_rent (id, zip_code, bedrooms, expected_rent, source, effective_date) VALUES
+(gen_random_uuid(), '02770', 0, 1688.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '02770', 1, 1735.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '02770', 2, 2263.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '02770', 3, 2867.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '02770', 4, 3101.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '02770', 5, 3566.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '02770', 6, 4031.00, 'Boston Housing Authority Payment Standard', '2025-07-01');
+
+-- Rockland 02370
+INSERT INTO expected_rent (id, zip_code, bedrooms, expected_rent, source, effective_date) VALUES
+(gen_random_uuid(), '02370', 0, 2102.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '02370', 1, 2259.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '02370', 2, 2686.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '02370', 3, 3248.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '02370', 4, 3578.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '02370', 5, 4114.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '02370', 6, 4650.00, 'Boston Housing Authority Payment Standard', '2025-07-01');
+
+-- Rockport 01966
+INSERT INTO expected_rent (id, zip_code, bedrooms, expected_rent, source, effective_date) VALUES
+(gen_random_uuid(), '01966', 0, 2369.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '01966', 1, 2506.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '01966', 2, 2969.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '01966', 3, 3578.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '01966', 4, 3936.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '01966', 5, 4527.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '01966', 6, 5117.00, 'Boston Housing Authority Payment Standard', '2025-07-01');
+
+-- Rowley 01969
+INSERT INTO expected_rent (id, zip_code, bedrooms, expected_rent, source, effective_date) VALUES
+(gen_random_uuid(), '01969', 0, 2324.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '01969', 1, 2497.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '01969', 2, 2969.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '01969', 3, 3590.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '01969', 4, 3955.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '01969', 5, 4547.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '01969', 6, 5140.00, 'Boston Housing Authority Payment Standard', '2025-07-01');
+
+-- Salem 01970
+INSERT INTO expected_rent (id, zip_code, bedrooms, expected_rent, source, effective_date) VALUES
+(gen_random_uuid(), '01970', 0, 2102.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '01970', 1, 2259.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '01970', 2, 2686.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '01970', 3, 3248.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '01970', 4, 3578.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '01970', 5, 4114.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '01970', 6, 4650.00, 'Boston Housing Authority Payment Standard', '2025-07-01');
+
+-- Salisbury 01952
+INSERT INTO expected_rent (id, zip_code, bedrooms, expected_rent, source, effective_date) VALUES
+(gen_random_uuid(), '01952', 0, 2324.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '01952', 1, 2497.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '01952', 2, 2969.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '01952', 3, 3590.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '01952', 4, 3955.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '01952', 5, 4547.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '01952', 6, 5140.00, 'Boston Housing Authority Payment Standard', '2025-07-01');
+
+-- Saugus 01906
+INSERT INTO expected_rent (id, zip_code, bedrooms, expected_rent, source, effective_date) VALUES
+(gen_random_uuid(), '01906', 0, 2102.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '01906', 1, 2259.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '01906', 2, 2686.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '01906', 3, 3248.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '01906', 4, 3578.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '01906', 5, 4114.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '01906', 6, 4650.00, 'Boston Housing Authority Payment Standard', '2025-07-01');
+
+-- Scituate 02066
+INSERT INTO expected_rent (id, zip_code, bedrooms, expected_rent, source, effective_date) VALUES
+(gen_random_uuid(), '02066', 0, 2324.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '02066', 1, 2497.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '02066', 2, 2969.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '02066', 3, 3590.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '02066', 4, 3955.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '02066', 5, 4547.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '02066', 6, 5140.00, 'Boston Housing Authority Payment Standard', '2025-07-01');
+
+-- Seekonk 02771
+INSERT INTO expected_rent (id, zip_code, bedrooms, expected_rent, source, effective_date) VALUES
+(gen_random_uuid(), '02771', 0, 1712.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '02771', 1, 1828.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '02771', 2, 2237.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '02771', 3, 2700.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '02771', 4, 3267.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '02771', 5, 3756.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '02771', 6, 4247.00, 'Boston Housing Authority Payment Standard', '2025-07-01');
+
+-- Sharon 02067
+INSERT INTO expected_rent (id, zip_code, bedrooms, expected_rent, source, effective_date) VALUES
+(gen_random_uuid(), '02067', 0, 2531.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '02067', 1, 2720.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '02067', 2, 3234.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '02067', 3, 3906.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '02067', 4, 4305.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '02067', 5, 4951.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '02067', 6, 5597.00, 'Boston Housing Authority Payment Standard', '2025-07-01');
+
+-- Sherborn 01770
+INSERT INTO expected_rent (id, zip_code, bedrooms, expected_rent, source, effective_date) VALUES
+(gen_random_uuid(), '01770', 0, 2369.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '01770', 1, 2506.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '01770', 2, 2969.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '01770', 3, 3578.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '01770', 4, 3936.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '01770', 5, 4527.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '01770', 6, 5117.00, 'Boston Housing Authority Payment Standard', '2025-07-01');
+
+-- Somerset 02725
+INSERT INTO expected_rent (id, zip_code, bedrooms, expected_rent, source, effective_date) VALUES
+(gen_random_uuid(), '02725', 0, 1295.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '02725', 1, 1386.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '02725', 2, 1695.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '02725', 3, 2043.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '02725', 4, 2478.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '02725', 5, 2849.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '02725', 6, 3220.00, 'Boston Housing Authority Payment Standard', '2025-07-01');
+
+-- Somerset 02726
+INSERT INTO expected_rent (id, zip_code, bedrooms, expected_rent, source, effective_date) VALUES
+(gen_random_uuid(), '02726', 0, 1407.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '02726', 1, 1512.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '02726', 2, 1848.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '02726', 3, 2226.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '02726', 4, 2699.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '02726', 5, 3103.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '02726', 6, 3509.00, 'Boston Housing Authority Payment Standard', '2025-07-01');
+
+-- Somerville 02143
+INSERT INTO expected_rent (id, zip_code, bedrooms, expected_rent, source, effective_date) VALUES
+(gen_random_uuid(), '02143', 0, 2626.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '02143', 1, 2815.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '02143', 2, 3350.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '02143', 3, 4054.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '02143', 4, 4464.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '02143', 5, 5133.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '02143', 6, 5803.00, 'Boston Housing Authority Payment Standard', '2025-07-01');
+
+-- Somerville 02144
+INSERT INTO expected_rent (id, zip_code, bedrooms, expected_rent, source, effective_date) VALUES
+(gen_random_uuid(), '02144', 0, 2856.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '02144', 1, 3077.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '02144', 2, 3654.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '02144', 3, 4421.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '02144', 4, 4862.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '02144', 5, 5591.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '02144', 6, 6320.00, 'Boston Housing Authority Payment Standard', '2025-07-01');
+
+-- Somerville 02145
+INSERT INTO expected_rent (id, zip_code, bedrooms, expected_rent, source, effective_date) VALUES
+(gen_random_uuid(), '02145', 0, 2594.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '02145', 1, 2793.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '02145', 2, 3318.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '02145', 3, 4011.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '02145', 4, 4421.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '02145', 5, 5084.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '02145', 6, 5747.00, 'Boston Housing Authority Payment Standard', '2025-07-01');
+
+-- South Easton 02375
+INSERT INTO expected_rent (id, zip_code, bedrooms, expected_rent, source, effective_date) VALUES
+(gen_random_uuid(), '02375', 0, 2079.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '02375', 1, 2090.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '02375', 2, 2751.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '02375', 3, 3329.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '02375', 4, 4127.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '02375', 5, 4745.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '02375', 6, 5365.00, 'Boston Housing Authority Payment Standard', '2025-07-01');
+
+-- South Weymouth 02190
+INSERT INTO expected_rent (id, zip_code, bedrooms, expected_rent, source, effective_date) VALUES
+(gen_random_uuid(), '02190', 0, 2102.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '02190', 1, 2259.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '02190', 2, 2686.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '02190', 3, 3248.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '02190', 4, 3578.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '02190', 5, 4114.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '02190', 6, 4650.00, 'Boston Housing Authority Payment Standard', '2025-07-01');
+
+-- Southborough 01772
+INSERT INTO expected_rent (id, zip_code, bedrooms, expected_rent, source, effective_date) VALUES
+(gen_random_uuid(), '01772', 0, 2087.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '01772', 1, 2197.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '01772', 2, 2678.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '01772', 3, 3300.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '01772', 4, 3651.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '01772', 5, 4199.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '01772', 6, 4747.00, 'Boston Housing Authority Payment Standard', '2025-07-01');
+
+-- Stoneham 02180
+INSERT INTO expected_rent (id, zip_code, bedrooms, expected_rent, source, effective_date) VALUES
+(gen_random_uuid(), '02180', 0, 2324.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '02180', 1, 2497.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '02180', 2, 2969.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '02180', 3, 3590.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '02180', 4, 3955.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '02180', 5, 4547.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '02180', 6, 5140.00, 'Boston Housing Authority Payment Standard', '2025-07-01');
+
+-- Stoughton 02072
+INSERT INTO expected_rent (id, zip_code, bedrooms, expected_rent, source, effective_date) VALUES
+(gen_random_uuid(), '02072', 0, 2102.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '02072', 1, 2259.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '02072', 2, 2686.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '02072', 3, 3248.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '02072', 4, 3578.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '02072', 5, 4114.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '02072', 6, 4650.00, 'Boston Housing Authority Payment Standard', '2025-07-01');
+
+-- Stow 01775
+INSERT INTO expected_rent (id, zip_code, bedrooms, expected_rent, source, effective_date) VALUES
+(gen_random_uuid(), '01775', 0, 2324.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '01775', 1, 2497.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '01775', 2, 2969.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '01775', 3, 3590.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '01775', 4, 3955.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '01775', 5, 4547.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '01775', 6, 5140.00, 'Boston Housing Authority Payment Standard', '2025-07-01');
+
+-- Sudbury 01776
+INSERT INTO expected_rent (id, zip_code, bedrooms, expected_rent, source, effective_date) VALUES
+(gen_random_uuid(), '01776', 0, 2324.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '01776', 1, 2497.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '01776', 2, 2969.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '01776', 3, 3590.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '01776', 4, 3955.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '01776', 5, 4547.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '01776', 6, 5140.00, 'Boston Housing Authority Payment Standard', '2025-07-01');
+
+-- Swampscott 01907
+INSERT INTO expected_rent (id, zip_code, bedrooms, expected_rent, source, effective_date) VALUES
+(gen_random_uuid(), '01907', 0, 2615.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '01907', 1, 2804.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '01907', 2, 3339.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '01907', 3, 4032.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '01907', 4, 4452.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '01907', 5, 5120.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '01907', 6, 5788.00, 'Boston Housing Authority Payment Standard', '2025-07-01');
+
+-- Swansea 02777
+INSERT INTO expected_rent (id, zip_code, bedrooms, expected_rent, source, effective_date) VALUES
+(gen_random_uuid(), '02777', 0, 1360.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '02777', 1, 1481.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '02777', 2, 1817.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '02777', 3, 2196.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '02777', 4, 2658.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '02777', 5, 3056.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '02777', 6, 3455.00, 'Boston Housing Authority Payment Standard', '2025-07-01');
+
+-- Taunton 02780
+INSERT INTO expected_rent (id, zip_code, bedrooms, expected_rent, source, effective_date) VALUES
+(gen_random_uuid(), '02780', 0, 1184.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '02780', 1, 1329.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '02780', 2, 1746.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '02780', 3, 2205.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '02780', 4, 2360.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '02780', 5, 2713.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '02780', 6, 3067.00, 'Boston Housing Authority Payment Standard', '2025-07-01');
+
+-- Tewksbury 01876
+INSERT INTO expected_rent (id, zip_code, bedrooms, expected_rent, source, effective_date) VALUES
+(gen_random_uuid(), '01876', 0, 2142.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '01876', 1, 2384.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '01876', 2, 3129.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '01876', 3, 3780.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '01876', 4, 4169.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '01876', 5, 4794.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '01876', 6, 5420.00, 'Boston Housing Authority Payment Standard', '2025-07-01');
+
+-- Topsfield 01983
+INSERT INTO expected_rent (id, zip_code, bedrooms, expected_rent, source, effective_date) VALUES
+(gen_random_uuid(), '01983', 0, 2369.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '01983', 1, 2506.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '01983', 2, 2969.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '01983', 3, 3578.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '01983', 4, 3936.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '01983', 5, 4527.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '01983', 6, 5117.00, 'Boston Housing Authority Payment Standard', '2025-07-01');
+
+-- Tyngsboro 01854
+INSERT INTO expected_rent (id, zip_code, bedrooms, expected_rent, source, effective_date) VALUES
+(gen_random_uuid(), '01854', 0, 1400.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '01854', 1, 1560.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '01854', 2, 2050.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '01854', 3, 2470.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '01854', 4, 2718.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '01854', 5, 3125.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '01854', 6, 3533.00, 'Boston Housing Authority Payment Standard', '2025-07-01');
+
+-- Tyngsboro 01879
+INSERT INTO expected_rent (id, zip_code, bedrooms, expected_rent, source, effective_date) VALUES
+(gen_random_uuid(), '01879', 0, 1400.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '01879', 1, 1560.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '01879', 2, 2050.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '01879', 3, 2470.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '01879', 4, 2718.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '01879', 5, 3125.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '01879', 6, 3533.00, 'Boston Housing Authority Payment Standard', '2025-07-01');
+
+-- Wakefield 01880
+INSERT INTO expected_rent (id, zip_code, bedrooms, expected_rent, source, effective_date) VALUES
+(gen_random_uuid(), '01880', 0, 2324.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '01880', 1, 2497.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '01880', 2, 2969.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '01880', 3, 3590.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '01880', 4, 3955.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '01880', 5, 4547.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '01880', 6, 5140.00, 'Boston Housing Authority Payment Standard', '2025-07-01');
+
+-- Walpole 02081
+INSERT INTO expected_rent (id, zip_code, bedrooms, expected_rent, source, effective_date) VALUES
+(gen_random_uuid(), '02081', 0, 2324.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '02081', 1, 2497.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '02081', 2, 2969.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '02081', 3, 3590.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '02081', 4, 3955.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '02081', 5, 4547.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '02081', 6, 5140.00, 'Boston Housing Authority Payment Standard', '2025-07-01');
+
+-- Waltham 02451
+INSERT INTO expected_rent (id, zip_code, bedrooms, expected_rent, source, effective_date) VALUES
+(gen_random_uuid(), '02451', 0, 2102.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '02451', 1, 2259.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '02451', 2, 2686.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '02451', 3, 3248.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '02451', 4, 3578.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '02451', 5, 4114.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '02451', 6, 4650.00, 'Boston Housing Authority Payment Standard', '2025-07-01');
+
+-- Waltham 02452
+INSERT INTO expected_rent (id, zip_code, bedrooms, expected_rent, source, effective_date) VALUES
+(gen_random_uuid(), '02452', 0, 2102.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '02452', 1, 2259.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '02452', 2, 2686.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '02452', 3, 3248.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '02452', 4, 3578.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '02452', 5, 4114.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '02452', 6, 4650.00, 'Boston Housing Authority Payment Standard', '2025-07-01');
+
+-- Waltham 02453
+INSERT INTO expected_rent (id, zip_code, bedrooms, expected_rent, source, effective_date) VALUES
+(gen_random_uuid(), '02453', 0, 2102.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '02453', 1, 2259.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '02453', 2, 2686.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '02453', 3, 3248.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '02453', 4, 3578.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '02453', 5, 4114.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '02453', 6, 4650.00, 'Boston Housing Authority Payment Standard', '2025-07-01');
+
+-- Wareham 02571
+INSERT INTO expected_rent (id, zip_code, bedrooms, expected_rent, source, effective_date) VALUES
+(gen_random_uuid(), '02571', 0, 2102.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '02571', 1, 2259.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '02571', 2, 2686.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '02571', 3, 3248.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '02571', 4, 3578.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '02571', 5, 4114.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '02571', 6, 4650.00, 'Boston Housing Authority Payment Standard', '2025-07-01');
+
+-- Watertown 02472
+INSERT INTO expected_rent (id, zip_code, bedrooms, expected_rent, source, effective_date) VALUES
+(gen_random_uuid(), '02472', 0, 2102.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '02472', 1, 2259.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '02472', 2, 2686.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '02472', 3, 3248.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '02472', 4, 3578.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '02472', 5, 4114.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '02472', 6, 4650.00, 'Boston Housing Authority Payment Standard', '2025-07-01');
+
+-- Wayland 01778
+INSERT INTO expected_rent (id, zip_code, bedrooms, expected_rent, source, effective_date) VALUES
+(gen_random_uuid(), '01778', 0, 2650.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '01778', 1, 2820.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '01778', 2, 3350.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '01778', 3, 4031.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '01778', 4, 4420.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '01778', 5, 5103.00, 'Boston Housing Authority Payment Standard', '2025-07-01'),
+(gen_random_uuid(), '01778', 6, 5769.00, 'Boston Housing Authority Payment Standard', '2025-07-01');
