@@ -483,7 +483,7 @@ NULL, NULL,
 
 -- Bridgewater, MA listings
 -- Listing: 48 Wall St - Multi-Family
-('bw000001-0000-0000-0000-000000000001', 'REDFIN', '73464130', 'https://www.redfin.com/MA/Bridgewater/48-Wall-St-02324/home/16311764', '73464130',
+('b0000001-0000-0000-0000-000000000001', 'REDFIN', '73464130', 'https://www.redfin.com/MA/Bridgewater/48-Wall-St-02324/home/16311764', '73464130',
 'MLS Listing', 'Active', NULL, '2025-12-29', 2,
 '48 Wall St', '48 Wall St', NULL, 'Bridgewater', 'MA', '02324',
 'Bridgewater', 42.0043445, -70.9813236,
@@ -494,7 +494,7 @@ NULL, NULL,
 NOW(), NOW(), NOW()),
 
 -- Listing: 58 Roberts Rd - Single Family
-('bw000001-0000-0000-0000-000000000002', 'REDFIN', '73464080', 'https://www.redfin.com/MA/Bridgewater/58-Roberts-Rd-02324/home/16310460', '73464080',
+('b0000001-0000-0000-0000-000000000002', 'REDFIN', '73464080', 'https://www.redfin.com/MA/Bridgewater/58-Roberts-Rd-02324/home/16310460', '73464080',
 'MLS Listing', 'Active', NULL, '2025-12-29', 2,
 '58 Roberts Rd', '58 Roberts Rd', NULL, 'Bridgewater', 'MA', '02324',
 'Bridgewater', 42.000355, -70.9180146,
@@ -505,7 +505,7 @@ NOW(), NOW(), NOW()),
 NOW(), NOW(), NOW()),
 
 -- Listing: 28 Beninati Farm Rd - Single Family
-('bw000001-0000-0000-0000-000000000003', 'REDFIN', '73462541', 'https://www.redfin.com/MA/Bridgewater/28-Beninati-Farm-Rd-02324/home/16309664', '73462541',
+('b0000001-0000-0000-0000-000000000003', 'REDFIN', '73462541', 'https://www.redfin.com/MA/Bridgewater/28-Beninati-Farm-Rd-02324/home/16309664', '73462541',
 'MLS Listing', 'Active', NULL, '2025-12-16', 15,
 '28 Beninati Farm Rd', '28 Beninati Farm Rd', NULL, 'Bridgewater', 'MA', '02324',
 'Bridgewater', 41.9440019, -70.9745787,
@@ -516,7 +516,7 @@ NULL, NULL,
 NOW(), NOW(), NOW()),
 
 -- Listing: 220 Bedford St #32 - Condo
-('bw000001-0000-0000-0000-000000000004', 'REDFIN', '73462113', 'https://www.redfin.com/MA/Bridgewater/220-Bedford-St-02324/unit-32/home/16314205', '73462113',
+('b0000001-0000-0000-0000-000000000004', 'REDFIN', '73462113', 'https://www.redfin.com/MA/Bridgewater/220-Bedford-St-02324/unit-32/home/16314205', '73462113',
 'MLS Listing', 'Active', NULL, '2025-12-14', 17,
 '220 Bedford St #32', '220 Bedford St', '#32', 'Bridgewater', 'MA', '02324',
 'Bridgewater', 41.9815672, -70.9735617,
@@ -527,7 +527,7 @@ NULL, NULL,
 NOW(), NOW(), NOW()),
 
 -- Listing: 10 Mockingbird Hl - Single Family
-('bw000001-0000-0000-0000-000000000005', 'REDFIN', '73461434', 'https://www.redfin.com/MA/Bridgewater/10-Mockingbird-Hl-02324/home/16314368', '73461434',
+('b0000001-0000-0000-0000-000000000005', 'REDFIN', '73461434', 'https://www.redfin.com/MA/Bridgewater/10-Mockingbird-Hl-02324/home/16314368', '73461434',
 'MLS Listing', 'Active', NULL, '2025-12-10', 21,
 '10 Mockingbird Hl', '10 Mockingbird Hl', NULL, 'Bridgewater', 'MA', '02324',
 'Bridgewater', 41.9798885, -70.9933063,
@@ -538,7 +538,7 @@ NULL, NULL,
 NOW(), NOW(), NOW()),
 
 -- Listing: 180 Main St Unit D80 - Condo
-('bw000001-0000-0000-0000-000000000006', 'REDFIN', '73460999', 'https://www.redfin.com/MA/Bridgewater/180-Main-St-02324/unit-D80/home/16310048', '73460999',
+('b0000001-0000-0000-0000-000000000006', 'REDFIN', '73460999', 'https://www.redfin.com/MA/Bridgewater/180-Main-St-02324/unit-D80/home/16310048', '73460999',
 'MLS Listing', 'Active', NULL, '2025-12-09', 22,
 '180 Main St Unit D80', '180 Main St', 'Unit D80', 'Bridgewater', 'MA', '02324',
 'Bridgewater', 41.992751, -70.982801,
@@ -549,7 +549,7 @@ NOW(), NOW(), NOW()),
 NOW(), NOW(), NOW()),
 
 -- Listing: 580 Broad St #1 - Single Family
-('bw000001-0000-0000-0000-000000000007', 'REDFIN', '73458684', 'https://www.redfin.com/MA/Bridgewater/580-Broad-St-02324/unit-1/home/199154123', '73458684',
+('b0000001-0000-0000-0000-000000000007', 'REDFIN', '73458684', 'https://www.redfin.com/MA/Bridgewater/580-Broad-St-02324/unit-1/home/199154123', '73458684',
 'MLS Listing', 'Active', NULL, '2025-12-01', 30,
 '580 Broad St #1', '580 Broad St', '#1', 'Bridgewater', 'MA', '02324',
 'Bridgewater', 42.005103, -70.9679309,
@@ -560,7 +560,7 @@ NULL, NULL,
 NOW(), NOW(), NOW()),
 
 -- Listing: 580 Broad St #2 - Single Family
-('bw000001-0000-0000-0000-000000000008', 'REDFIN', '73458686', 'https://www.redfin.com/MA/Bridgewater/580-Broad-St-02324/unit-2/home/199142128', '73458686',
+('b0000001-0000-0000-0000-000000000008', 'REDFIN', '73458686', 'https://www.redfin.com/MA/Bridgewater/580-Broad-St-02324/unit-2/home/199142128', '73458686',
 'MLS Listing', 'Active', NULL, '2025-12-01', 30,
 '580 Broad St #2', '580 Broad St', '#2', 'Bridgewater', 'MA', '02324',
 'Bridgewater', 42.005103, -70.9679309,
@@ -571,7 +571,7 @@ NULL, NULL,
 NOW(), NOW(), NOW()),
 
 -- Listing: 37 Titicut Ave Lot 34 - Single Family (Duxburrow Estates)
-('bw000001-0000-0000-0000-000000000009', 'REDFIN', '73458097', 'https://www.redfin.com/MA/Bridgewater/37-Titicut-Ave-02324/unit-34/home/199413071', '73458097',
+('b0000001-0000-0000-0000-000000000009', 'REDFIN', '73458097', 'https://www.redfin.com/MA/Bridgewater/37-Titicut-Ave-02324/unit-34/home/199413071', '73458097',
 'MLS Listing', 'Active', NULL, '2025-11-29', 33,
 '37 Titicut Ave Lot 34', '37 Titicut Ave', 'Lot 34', 'Bridgewater', 'MA', '02324',
 'Duxburrow Estates', 41.965953, -70.944483,
@@ -582,7 +582,7 @@ NULL, NULL,
 NOW(), NOW(), NOW()),
 
 -- Listing: 1 Jennifer Cir - Single Family
-('bw000001-0000-0000-0000-000000000010', 'REDFIN', '73455161', 'https://www.redfin.com/MA/Bridgewater/1-Jennifer-Cir-02324/home/199095995', '73455161',
+('b0000001-0000-0000-0000-000000000010', 'REDFIN', '73455161', 'https://www.redfin.com/MA/Bridgewater/1-Jennifer-Cir-02324/home/199095995', '73455161',
 'MLS Listing', 'Active', NULL, '2025-11-14', 47,
 '1 Jennifer Cir', '1 Jennifer Cir', NULL, 'Bridgewater', 'MA', '02324',
 'Bridgewater', 41.9677098, -70.9810864,
@@ -593,7 +593,7 @@ NULL, NULL,
 NOW(), NOW(), NOW()),
 
 -- Listing: 60 Titicut Ave Lot 41 - Single Family (Duxburrow Estates)
-('bw000001-0000-0000-0000-000000000011', 'REDFIN', '73453136', 'https://www.redfin.com/MA/Bridgewater/60-Titicut-Ave-02324/unit-41/home/192845325', '73453136',
+('b0000001-0000-0000-0000-000000000011', 'REDFIN', '73453136', 'https://www.redfin.com/MA/Bridgewater/60-Titicut-Ave-02324/unit-41/home/192845325', '73453136',
 'MLS Listing', 'Active', NULL, '2025-11-10', 51,
 '60 Titicut Ave Lot 41', '60 Titicut Ave', 'Lot 41', 'Bridgewater', 'MA', '02324',
 'Duxburrow Estates', 41.965432, -70.942735,
@@ -604,7 +604,7 @@ NULL, NULL,
 NOW(), NOW(), NOW()),
 
 -- Listing: 96 Trailwood Dr - Single Family
-('bw000001-0000-0000-0000-000000000012', 'REDFIN', '73452557', 'https://www.redfin.com/MA/Bridgewater/96-Trailwood-Dr-02324/home/198942297', '73452557',
+('b0000001-0000-0000-0000-000000000012', 'REDFIN', '73452557', 'https://www.redfin.com/MA/Bridgewater/96-Trailwood-Dr-02324/home/198942297', '73452557',
 'MLS Listing', 'Active', NULL, '2025-11-08', 54,
 '96 Trailwood Dr', '96 Trailwood Dr', NULL, 'Bridgewater', 'MA', '02324',
 'Bridgewater', 41.9985257, -70.9207648,
@@ -615,7 +615,7 @@ NULL, NULL,
 NOW(), NOW(), NOW()),
 
 -- Listing: Lot 1 Mill - Vacant Land
-('bw000001-0000-0000-0000-000000000013', 'REDFIN', '73452056', 'https://www.redfin.com/MA/Bridgewater/1-Mill-St-02324/home/107217918', '73452056',
+('b0000001-0000-0000-0000-000000000013', 'REDFIN', '73452056', 'https://www.redfin.com/MA/Bridgewater/1-Mill-St-02324/home/107217918', '73452056',
 'MLS Listing', 'Active', NULL, '2025-11-07', 55,
 'Lot 1 Mill', 'Lot 1 Mill', NULL, 'Bridgewater', 'MA', '02324',
 'Bridgewater', 41.9933514, -70.9385852,
@@ -626,7 +626,7 @@ NULL, NULL,
 NOW(), NOW(), NOW()),
 
 -- Listing: 180 Main St Unit A-15 - Condo
-('bw000001-0000-0000-0000-000000000014', 'REDFIN', '73446440', 'https://www.redfin.com/MA/Bridgewater/180-Main-St-02324/unit-A15/home/16309475', '73446440',
+('b0000001-0000-0000-0000-000000000014', 'REDFIN', '73446440', 'https://www.redfin.com/MA/Bridgewater/180-Main-St-02324/unit-A15/home/16309475', '73446440',
 'MLS Listing', 'Active', NULL, '2025-10-22', 70,
 '180 Main St Unit A-15', '180 Main St', 'Unit A-15', 'Bridgewater', 'MA', '02324',
 'Bridgewater', 41.992751, -70.982801,
@@ -637,7 +637,7 @@ NULL, NULL,
 NOW(), NOW(), NOW()),
 
 -- Listing: 23 Stone Meadow Dr - Single Family
-('bw000001-0000-0000-0000-000000000015', 'REDFIN', '73441241', 'https://www.redfin.com/MA/Bridgewater/23-Stone-Meadow-Dr-02324/home/198524795', '73441241',
+('b0000001-0000-0000-0000-000000000015', 'REDFIN', '73441241', 'https://www.redfin.com/MA/Bridgewater/23-Stone-Meadow-Dr-02324/home/198524795', '73441241',
 'MLS Listing', 'Active', NULL, '2025-10-08', 84,
 '23 Stone Meadow Dr', '23 Stone Meadow Dr', NULL, 'Bridgewater', 'MA', '02324',
 'Bridgewater', 42.0021316, -70.9286346,
@@ -648,7 +648,7 @@ NULL, NULL,
 NOW(), NOW(), NOW()),
 
 -- Listing: 73 Pratt Ave Lot 126 - Single Family (Duxburrow Estates)
-('bw000001-0000-0000-0000-000000000016', 'REDFIN', '73437916', 'https://www.redfin.com/MA/Bridgewater/73-Pratt-Ave-02324/unit-126/home/186467960', '73437916',
+('b0000001-0000-0000-0000-000000000016', 'REDFIN', '73437916', 'https://www.redfin.com/MA/Bridgewater/73-Pratt-Ave-02324/unit-126/home/186467960', '73437916',
 'MLS Listing', 'Active', NULL, '2025-10-04', 88,
 '73 Pratt Ave Lot 126', '73 Pratt Ave', 'Lot 126', 'Bridgewater', 'MA', '02324',
 'Duxburrow Estates', 41.966855, -70.94148,
@@ -659,7 +659,7 @@ NULL, NULL,
 NOW(), NOW(), NOW()),
 
 -- Listing: 18 Aldrich Rd - Multi-Family
-('bw000001-0000-0000-0000-000000000017', 'REDFIN', '73436148', 'https://www.redfin.com/MA/Bridgewater/18-Aldrich-Rd-02324/home/16310202', '73436148',
+('b0000001-0000-0000-0000-000000000017', 'REDFIN', '73436148', 'https://www.redfin.com/MA/Bridgewater/18-Aldrich-Rd-02324/home/16310202', '73436148',
 'MLS Listing', 'Active', NULL, '2025-10-01', 91,
 '18 Aldrich Rd', '18 Aldrich Rd', NULL, 'Bridgewater', 'MA', '02324',
 'Bridgewater', 41.9965106, -70.9896576,
@@ -670,7 +670,7 @@ NULL, NULL,
 NOW(), NOW(), NOW()),
 
 -- Listing: 35 Stockbridge Rd - Single Family
-('bw000001-0000-0000-0000-000000000018', 'REDFIN', '73436845', 'https://www.redfin.com/MA/Bridgewater/35-Stockbridge-Rd-02324/home/16315735', '73436845',
+('b0000001-0000-0000-0000-000000000018', 'REDFIN', '73436845', 'https://www.redfin.com/MA/Bridgewater/35-Stockbridge-Rd-02324/home/16315735', '73436845',
 'MLS Listing', 'Active', NULL, '2025-09-29', 93,
 '35 Stockbridge Rd', '35 Stockbridge Rd', NULL, 'Bridgewater', 'MA', '02324',
 'Bridgewater', 41.9637286, -70.9894741,
@@ -681,7 +681,7 @@ NULL, NULL,
 NOW(), NOW(), NOW()),
 
 -- Listing: 130 Maple Ave - Multi-Family
-('bw000001-0000-0000-0000-000000000019', 'REDFIN', '73433405', 'https://www.redfin.com/MA/Bridgewater/130-Maple-Ave-02324/home/16314756', '73433405',
+('b0000001-0000-0000-0000-000000000019', 'REDFIN', '73433405', 'https://www.redfin.com/MA/Bridgewater/130-Maple-Ave-02324/home/16314756', '73433405',
 'MLS Listing', 'Active', NULL, '2025-09-23', 99,
 '130 Maple Ave', '130 Maple Ave', NULL, 'Bridgewater', 'MA', '02324',
 'Bridgewater', 41.9850835, -70.9741932,
@@ -692,7 +692,7 @@ NULL, NULL,
 NOW(), NOW(), NOW()),
 
 -- Listing: 398 Plymouth St - Single Family
-('bw000001-0000-0000-0000-000000000020', 'REDFIN', '73408132', 'https://www.redfin.com/MA/Bridgewater/398-Plymouth-St-02324/home/16309965', '73408132',
+('b0000001-0000-0000-0000-000000000020', 'REDFIN', '73408132', 'https://www.redfin.com/MA/Bridgewater/398-Plymouth-St-02324/home/16309965', '73408132',
 'MLS Listing', 'Active', NULL, '2025-07-28', 156,
 '398 Plymouth St', '398 Plymouth St', NULL, 'Bridgewater', 'MA', '02324',
 'Bridgewater', 41.9933141, -70.9592732,
@@ -703,7 +703,7 @@ NULL, NULL,
 NOW(), NOW(), NOW()),
 
 -- Listing: 40 Country Club Dr - Single Family
-('bw000001-0000-0000-0000-000000000021', 'REDFIN', '73401063', 'https://www.redfin.com/MA/Bridgewater/40-Country-Club-Dr-02324/home/16311932', '73401063',
+('b0000001-0000-0000-0000-000000000021', 'REDFIN', '73401063', 'https://www.redfin.com/MA/Bridgewater/40-Country-Club-Dr-02324/home/16311932', '73401063',
 'MLS Listing', 'Active', NULL, '2025-07-22', 162,
 '40 Country Club Dr', '40 Country Club Dr', NULL, 'Bridgewater', 'MA', '02324',
 'Bridgewater', 41.9482877, -71.015846,
@@ -714,7 +714,7 @@ NULL, NULL,
 NOW(), NOW(), NOW()),
 
 -- Listing: 32 Titicut Ave Lot 48 - Single Family (Duxburrow Estates)
-('bw000001-0000-0000-0000-000000000022', 'REDFIN', '73399502', 'https://www.redfin.com/MA/Bridgewater/32-Titicut-Ave-02324/unit-48/home/195537141', '73399502',
+('b0000001-0000-0000-0000-000000000022', 'REDFIN', '73399502', 'https://www.redfin.com/MA/Bridgewater/32-Titicut-Ave-02324/unit-48/home/195537141', '73399502',
 'MLS Listing', 'Active', NULL, '2025-07-03', 181,
 '32 Titicut Ave Lot 48', '32 Titicut Ave', 'Lot 48', 'Bridgewater', 'MA', '02324',
 'Duxburrow Estates', 41.9663186, -70.9445205,
@@ -725,7 +725,7 @@ NULL, NULL,
 NOW(), NOW(), NOW()),
 
 -- Listing: Lot 2 Fontana Way - Vacant Land
-('bw000001-0000-0000-0000-000000000023', 'REDFIN', '73397892', 'https://www.redfin.com/MA/Bridgewater/2-Fontana-WAY-02324/home/195075056', '73397892',
+('b0000001-0000-0000-0000-000000000023', 'REDFIN', '73397892', 'https://www.redfin.com/MA/Bridgewater/2-Fontana-WAY-02324/home/195075056', '73397892',
 'MLS Listing', 'Active', NULL, '2025-07-02', 182,
 'Lot 2 Fontana Way', 'Lot 2 Fontana Way', NULL, 'Bridgewater', 'MA', '02324',
 'Bridgewater', 41.98865, -70.998747,
@@ -736,7 +736,7 @@ NULL, NULL,
 NOW(), NOW(), NOW()),
 
 -- Listing: 8 North St - Single Family
-('bw000001-0000-0000-0000-000000000024', 'REDFIN', '73397743', 'https://www.redfin.com/MA/Bridgewater/8-North-St-02324/home/16314538', '73397743',
+('b0000001-0000-0000-0000-000000000024', 'REDFIN', '73397743', 'https://www.redfin.com/MA/Bridgewater/8-North-St-02324/home/16314538', '73397743',
 'MLS Listing', 'Active', NULL, '2025-06-27', 187,
 '8 North St', '8 North St', NULL, 'Bridgewater', 'MA', '02324',
 'Bridgewater', 41.979221, -70.9969999,
@@ -747,7 +747,7 @@ NULL, NULL,
 NOW(), NOW(), NOW()),
 
 -- Listing: 29 Saddle Dr - Single Family
-('bw000001-0000-0000-0000-000000000025', 'REDFIN', '73384384', 'https://www.redfin.com/MA/Bridgewater/29-Saddle-Dr-02324/home/16313979', '73384384',
+('b0000001-0000-0000-0000-000000000025', 'REDFIN', '73384384', 'https://www.redfin.com/MA/Bridgewater/29-Saddle-Dr-02324/home/16313979', '73384384',
 'MLS Listing', 'Active', NULL, '2025-06-03', 211,
 '29 Saddle Dr', '29 Saddle Dr', NULL, 'Bridgewater', 'MA', '02324',
 'Bridgewater', 41.9670801, -71.0327836,
@@ -758,7 +758,7 @@ NULL, NULL,
 NOW(), NOW(), NOW()),
 
 -- Listing: 73 Pratt Ave (New Construction) - Single Family
-('bw000001-0000-0000-0000-000000000026', 'ZILLOW', '0BAB3DEC0075', 'https://www.redfin.com/MA/Bridgewater/73-Pratt-Ave-02324/home/174898841', '0BAB3DEC0075',
+('b0000001-0000-0000-0000-000000000026', 'ZILLOW', '0BAB3DEC0075', 'https://www.redfin.com/MA/Bridgewater/73-Pratt-Ave-02324/home/174898841', '0BAB3DEC0075',
 'New Construction Home', 'Active', NULL, '2024-12-12', 355,
 '73 Pratt Ave', '73 Pratt Ave', NULL, 'Bridgewater', 'MA', '02324',
 'Bridgewater', 41.966918, -70.941427,
@@ -770,7 +770,7 @@ NOW(), NOW(), NOW()),
 
 -- Stoughton, MA listings
 -- Listing: 27 Rosewood Dr #27 - Townhouse
-('st000001-0000-0000-0000-000000000001', 'REDFIN', '73464237', 'https://www.redfin.com/MA/Stoughton/27-Rosewood-Dr-02072/unit-27/home/199883913', '73464237',
+('50000001-0000-0000-0000-000000000001', 'REDFIN', '73464237', 'https://www.redfin.com/MA/Stoughton/27-Rosewood-Dr-02072/unit-27/home/199883913', '73464237',
 'MLS Listing', 'Active', NULL, '2025-12-30', 1,
 '27 Rosewood Dr #27', '27 Rosewood Dr', '#27', 'Stoughton', 'MA', '02072',
 'Stoughton', 42.1416861, -71.1322969,
@@ -781,7 +781,7 @@ NOW(), NOW(), NOW()),
 NOW(), NOW(), NOW()),
 
 -- Listing: 870 Turnpike St - Single Family
-('st000001-0000-0000-0000-000000000002', 'REDFIN', '73463544', 'https://www.redfin.com/MA/Stoughton/870-Turnpike-St-02072/home/199764873', '73463544',
+('50000001-0000-0000-0000-000000000002', 'REDFIN', '73463544', 'https://www.redfin.com/MA/Stoughton/870-Turnpike-St-02072/home/199764873', '73463544',
 'MLS Listing', 'Active', NULL, '2025-12-23', 8,
 '870 Turnpike St', '870 Turnpike St', NULL, 'Stoughton', 'MA', '02072',
 'Stoughton', 42.1311729, -71.0776658,
@@ -792,7 +792,7 @@ NULL, NULL,
 NOW(), NOW(), NOW()),
 
 -- Listing: 293 School St - Multi-Family (5+ Unit)
-('st000001-0000-0000-0000-000000000003', 'REDFIN', '73463164', 'https://www.redfin.com/MA/Stoughton/293-School-St-02072/home/11729564', '73463164',
+('50000001-0000-0000-0000-000000000003', 'REDFIN', '73463164', 'https://www.redfin.com/MA/Stoughton/293-School-St-02072/home/11729564', '73463164',
 'MLS Listing', 'Active', NULL, '2025-12-19', 12,
 '293 School St', '293 School St', NULL, 'Stoughton', 'MA', '02072',
 'Stoughton', 42.1233537, -71.1108949,
@@ -803,7 +803,7 @@ NULL, NULL,
 NOW(), NOW(), NOW()),
 
 -- Listing: 292 Prospect St - Single Family
-('st000001-0000-0000-0000-000000000004', 'REDFIN', '73463110', 'https://www.redfin.com/MA/Stoughton/292-Prospect-St-02072/home/11736408', '73463110',
+('50000001-0000-0000-0000-000000000004', 'REDFIN', '73463110', 'https://www.redfin.com/MA/Stoughton/292-Prospect-St-02072/home/11736408', '73463110',
 'MLS Listing', 'Active', NULL, '2025-12-19', 12,
 '292 Prospect St', '292 Prospect St', NULL, 'Stoughton', 'MA', '02072',
 'Stoughton', 42.1239129, -71.0911194,
@@ -814,7 +814,7 @@ NULL, NULL,
 NOW(), NOW(), NOW()),
 
 -- Listing: 194 Ewing Dr - Single Family
-('st000001-0000-0000-0000-000000000005', 'REDFIN', '73463077', 'https://www.redfin.com/MA/Stoughton/194-Ewing-Dr-02072/home/11738199', '73463077',
+('50000001-0000-0000-0000-000000000005', 'REDFIN', '73463077', 'https://www.redfin.com/MA/Stoughton/194-Ewing-Dr-02072/home/11738199', '73463077',
 'MLS Listing', 'Active', NULL, '2025-12-18', 13,
 '194 Ewing Dr', '194 Ewing Dr', NULL, 'Stoughton', 'MA', '02072',
 'Stoughton', 42.1406661, -71.0973901,
@@ -825,7 +825,7 @@ NULL, NULL,
 NOW(), NOW(), NOW()),
 
 -- Listing: 42 Brewster Rd #42 - Single Family (Pond View Village)
-('st000001-0000-0000-0000-000000000006', 'REDFIN', '73462126', 'https://www.redfin.com/MA/Stoughton/42-Brewster-Rd-02072/unit-42/home/59289847', '73462126',
+('50000001-0000-0000-0000-000000000006', 'REDFIN', '73462126', 'https://www.redfin.com/MA/Stoughton/42-Brewster-Rd-02072/unit-42/home/59289847', '73462126',
 'MLS Listing', 'Active', NULL, '2025-12-14', 17,
 '42 Brewster Rd #42', '42 Brewster Rd', '#42', 'Stoughton', 'MA', '02072',
 'Pond View Village', 42.1223923, -71.0708316,
@@ -836,7 +836,7 @@ NULL, NULL,
 NOW(), NOW(), NOW()),
 
 -- Listing: 133 Greenbrook Dr #133 - Townhouse
-('st000001-0000-0000-0000-000000000007', 'REDFIN', '73461169', 'https://www.redfin.com/MA/Stoughton/133-Greenbrook-Dr-02072/unit-133/home/199587142', '73461169',
+('50000001-0000-0000-0000-000000000007', 'REDFIN', '73461169', 'https://www.redfin.com/MA/Stoughton/133-Greenbrook-Dr-02072/unit-133/home/199587142', '73461169',
 'MLS Listing', 'Active', NULL, '2025-12-10', 21,
 '133 Greenbrook Dr #133', '133 Greenbrook Dr', '#133', 'Stoughton', 'MA', '02072',
 'Stoughton', 42.1396686, -71.1346106,
@@ -847,7 +847,7 @@ NULL, NULL,
 NOW(), NOW(), NOW()),
 
 -- Listing: 163 Pearl St - Single Family
-('st000001-0000-0000-0000-000000000008', 'REDFIN', '73458940', 'https://www.redfin.com/MA/Stoughton/163-Pearl-St-02072/home/11732723', '73458940',
+('50000001-0000-0000-0000-000000000008', 'REDFIN', '73458940', 'https://www.redfin.com/MA/Stoughton/163-Pearl-St-02072/home/11732723', '73458940',
 'MLS Listing', 'Active', NULL, '2025-12-02', 29,
 '163 Pearl St', '163 Pearl St', NULL, 'Stoughton', 'MA', '02072',
 'Stoughton', 42.129409, -71.1065319,
@@ -858,7 +858,7 @@ NULL, NULL,
 NOW(), NOW(), NOW()),
 
 -- Listing: 93 Palisades Cir - Single Family
-('st000001-0000-0000-0000-000000000009', 'REDFIN', '73458449', 'https://www.redfin.com/MA/Stoughton/93-Palisades-Cir-02072/home/190229848', '73458449',
+('50000001-0000-0000-0000-000000000009', 'REDFIN', '73458449', 'https://www.redfin.com/MA/Stoughton/93-Palisades-Cir-02072/home/190229848', '73458449',
 'MLS Listing', 'Active', NULL, '2025-12-01', 30,
 '93 Palisades Cir', '93 Palisades Cir', NULL, 'Stoughton', 'MA', '02072',
 'Stoughton', 42.084142, -71.1121875,
@@ -869,7 +869,7 @@ NULL, NULL,
 NOW(), NOW(), NOW()),
 
 -- Listing: 84 Pearl St - Multi-Family (5+ Unit)
-('st000001-0000-0000-0000-000000000010', 'REDFIN', '73457286', 'https://www.redfin.com/MA/Stoughton/84-Pearl-St-02072/home/11732894', '73457286',
+('50000001-0000-0000-0000-000000000010', 'REDFIN', '73457286', 'https://www.redfin.com/MA/Stoughton/84-Pearl-St-02072/home/11732894', '73457286',
 'MLS Listing', 'Active', NULL, '2025-11-22', 39,
 '84 Pearl St', '84 Pearl St', NULL, 'Stoughton', 'MA', '02072',
 'Stoughton', 42.1274125, -71.1043603,
@@ -880,7 +880,7 @@ NULL, NULL,
 NOW(), NOW(), NOW()),
 
 -- Listing: Lot 4 West St - Vacant Land
-('st000001-0000-0000-0000-000000000011', 'REDFIN', '73456101', 'https://www.redfin.com/MA/Stoughton/4-West-St-02072/home/172650333', '73456101',
+('50000001-0000-0000-0000-000000000011', 'REDFIN', '73456101', 'https://www.redfin.com/MA/Stoughton/4-West-St-02072/home/172650333', '73456101',
 'MLS Listing', 'Active', NULL, '2025-11-19', 43,
 'Lot 4 West St', 'Lot 4 West St', NULL, 'Stoughton', 'MA', '02072',
 'Stoughton', 42.130673, -71.1298848,
@@ -891,7 +891,7 @@ NULL, NULL,
 NOW(), NOW(), NOW()),
 
 -- Listing: 100 Water St - Multi-Family (5+ Unit)
-('st000001-0000-0000-0000-000000000012', 'REDFIN', '73455615', 'https://www.redfin.com/MA/Stoughton/100-Water-St-02072/home/11731355', '73455615',
+('50000001-0000-0000-0000-000000000012', 'REDFIN', '73455615', 'https://www.redfin.com/MA/Stoughton/100-Water-St-02072/home/11731355', '73455615',
 'MLS Listing', 'Active', NULL, '2025-11-18', 44,
 '100 Water St', '100 Water St', NULL, 'Stoughton', 'MA', '02072',
 'Stoughton', 42.1216669, -71.1085865,
@@ -902,7 +902,7 @@ NULL, NULL,
 NOW(), NOW(), NOW()),
 
 -- Listing: 28 Faxon St #4 - Condo
-('st000001-0000-0000-0000-000000000013', 'REDFIN', '73451615', 'https://www.redfin.com/MA/Stoughton/28-Faxon-St-02072/unit-4/home/11732848', '73451615',
+('50000001-0000-0000-0000-000000000013', 'REDFIN', '73451615', 'https://www.redfin.com/MA/Stoughton/28-Faxon-St-02072/unit-4/home/11732848', '73451615',
 'MLS Listing', 'Active', NULL, '2025-11-06', 56,
 '28 Faxon St #4', '28 Faxon St', '#4', 'Stoughton', 'MA', '02072',
 'Stoughton', 42.1292686, -71.1046805,
@@ -913,7 +913,7 @@ NULL, NULL,
 NOW(), NOW(), NOW()),
 
 -- Listing: 19 Camelot Ct #19 - Single Family
-('st000001-0000-0000-0000-000000000014', 'REDFIN', '73451436', 'https://www.redfin.com/MA/Stoughton/19-Camelot-Ct-02072/unit-19/home/77508242', '73451436',
+('50000001-0000-0000-0000-000000000014', 'REDFIN', '73451436', 'https://www.redfin.com/MA/Stoughton/19-Camelot-Ct-02072/unit-19/home/77508242', '73451436',
 'MLS Listing', 'Active', NULL, '2025-11-06', 56,
 '19 Camelot Ct #19', '19 Camelot Ct', '#19', 'Stoughton', 'MA', '02072',
 'Stoughton', 42.143415, -71.0789137,
@@ -924,7 +924,7 @@ NOW(), NOW(), NOW()),
 NOW(), NOW(), NOW()),
 
 -- Listing: 25 Lawler Ln (lot 7) - Single Family
-('st000001-0000-0000-0000-000000000015', 'REDFIN', '73449984', 'https://www.redfin.com/MA/Stoughton/25-Lawler-Ln-02072/home/178218244', '73449984',
+('50000001-0000-0000-0000-000000000015', 'REDFIN', '73449984', 'https://www.redfin.com/MA/Stoughton/25-Lawler-Ln-02072/home/178218244', '73449984',
 'MLS Listing', 'Active', NULL, '2025-11-01', 61,
 '25 Lawler Ln (lot 7)', '25 Lawler Ln', '(lot 7)', 'Stoughton', 'MA', '02072',
 'Stoughton', 42.1267786, -71.0909805,
@@ -935,7 +935,7 @@ NULL, NULL,
 NOW(), NOW(), NOW()),
 
 -- Listing: 15 Lawler Ln (lot 8) - Single Family
-('st000001-0000-0000-0000-000000000016', 'REDFIN', '73449983', 'https://www.redfin.com/MA/Stoughton/15-Lawler-Ln-02072/home/178218245', '73449983',
+('50000001-0000-0000-0000-000000000016', 'REDFIN', '73449983', 'https://www.redfin.com/MA/Stoughton/15-Lawler-Ln-02072/home/178218245', '73449983',
 'MLS Listing', 'Active', NULL, '2025-11-01', 61,
 '15 Lawler Ln (lot 8)', '15 Lawler Ln', '(lot 8)', 'Stoughton', 'MA', '02072',
 'Stoughton', 42.1270586, -71.0911105,
@@ -946,7 +946,7 @@ NULL, NULL,
 NOW(), NOW(), NOW()),
 
 -- Listing: 64 Laurelwood Dr #64 - Townhouse
-('st000001-0000-0000-0000-000000000017', 'REDFIN', '73448461', 'https://www.redfin.com/MA/Stoughton/64-Laurelwood-Dr-02072/unit-64/home/77502251', '73448461',
+('50000001-0000-0000-0000-000000000017', 'REDFIN', '73448461', 'https://www.redfin.com/MA/Stoughton/64-Laurelwood-Dr-02072/unit-64/home/77502251', '73448461',
 'MLS Listing', 'Active', NULL, '2025-10-28', 64,
 '64 Laurelwood Dr #64', '64 Laurelwood Dr', '#64', 'Stoughton', 'MA', '02072',
 'Stoughton', 42.1423412, -71.133671,
@@ -957,7 +957,7 @@ NULL, NULL,
 NOW(), NOW(), NOW()),
 
 -- Listing: 511 Sumner St - Single Family
-('st000001-0000-0000-0000-000000000018', 'REDFIN', '73445805', 'https://www.redfin.com/MA/Stoughton/511-Sumner-St-02072/home/11735000', '73445805',
+('50000001-0000-0000-0000-000000000018', 'REDFIN', '73445805', 'https://www.redfin.com/MA/Stoughton/511-Sumner-St-02072/home/11735000', '73445805',
 'MLS Listing', 'Active', NULL, '2025-10-21', 71,
 '511 Sumner St', '511 Sumner St', NULL, 'Stoughton', 'MA', '02072',
 'Stoughton', 42.1102008, -71.086802,
@@ -968,7 +968,7 @@ NULL, NULL,
 NOW(), NOW(), NOW()),
 
 -- Listing: 59 Rosewood Dr #59 - Townhouse
-('st000001-0000-0000-0000-000000000019', 'REDFIN', '73442393', 'https://www.redfin.com/MA/Stoughton/59-Rosewood-Dr-02072/unit-59/home/77493044', '73442393',
+('50000001-0000-0000-0000-000000000019', 'REDFIN', '73442393', 'https://www.redfin.com/MA/Stoughton/59-Rosewood-Dr-02072/unit-59/home/77493044', '73442393',
 'MLS Listing', 'Active', NULL, '2025-10-14', 78,
 '59 Rosewood Dr #59', '59 Rosewood Dr', '#59', 'Stoughton', 'MA', '02072',
 'Stoughton', 42.1419548, -71.1336072,
@@ -979,7 +979,7 @@ NULL, NULL,
 NOW(), NOW(), NOW()),
 
 -- Listing: 1000 Pleasant St - Single Family
-('st000001-0000-0000-0000-000000000020', 'REDFIN', '73433657', 'https://www.redfin.com/MA/Stoughton/1000-Pleasant-St-02072/home/11740968', '73433657',
+('50000001-0000-0000-0000-000000000020', 'REDFIN', '73433657', 'https://www.redfin.com/MA/Stoughton/1000-Pleasant-St-02072/home/11740968', '73433657',
 'MLS Listing', 'Active', NULL, '2025-09-20', 102,
 '1000 Pleasant St', '1000 Pleasant St', NULL, 'Stoughton', 'MA', '02072',
 'Stoughton', 42.1436863, -71.0767789,
@@ -990,7 +990,7 @@ NULL, NULL,
 NOW(), NOW(), NOW()),
 
 -- Listing: 4 Eagle Rock Ext - Single Family (Eagle Rock Passive Homes)
-('st000001-0000-0000-0000-000000000021', 'REDFIN', '73432837', 'https://www.redfin.com/MA/Stoughton/4-Eagle-Rock-Rd-02072/home/11723153', '73432837',
+('50000001-0000-0000-0000-000000000021', 'REDFIN', '73432837', 'https://www.redfin.com/MA/Stoughton/4-Eagle-Rock-Rd-02072/home/11723153', '73432837',
 'MLS Listing', 'Active', NULL, '2025-09-18', 104,
 '4 Eagle Rock Ext', '4 Eagle Rock Ext', NULL, 'Stoughton', 'MA', '02072',
 'Eagle Rock Passive Homes, at The Preserve at Pheasant Hill', 42.0835913, -71.1360553,
@@ -1001,7 +1001,7 @@ NULL, NULL,
 NOW(), NOW(), NOW()),
 
 -- Listing: 15-17 Morton Sq - Multi-Family (2-4 Unit)
-('st000001-0000-0000-0000-000000000022', 'REDFIN', '73426984', 'https://www.redfin.com/MA/Stoughton/15-17-Morton-Sq-02072/home/196604030', '73426984',
+('50000001-0000-0000-0000-000000000022', 'REDFIN', '73426984', 'https://www.redfin.com/MA/Stoughton/15-17-Morton-Sq-02072/home/196604030', '73426984',
 'MLS Listing', 'Active', NULL, '2025-09-06', 116,
 '15-17 Morton Sq', '15-17 Morton Sq', NULL, 'Stoughton', 'MA', '02072',
 'Stoughton', 42.1229046, -71.1029955,
@@ -1012,7 +1012,7 @@ NULL, NULL,
 NOW(), NOW(), NOW()),
 
 -- Listing: 2040 Central St - Single Family
-('st000001-0000-0000-0000-000000000023', 'REDFIN', '73420985', 'https://www.redfin.com/MA/Stoughton/2040-Central-St-02072/home/11724737', '73420985',
+('50000001-0000-0000-0000-000000000023', 'REDFIN', '73420985', 'https://www.redfin.com/MA/Stoughton/2040-Central-St-02072/home/11724737', '73420985',
 'MLS Listing', 'Active', NULL, '2025-08-21', 132,
 '2040 Central St', '2040 Central St', NULL, 'Stoughton', 'MA', '02072',
 'Stoughton', 42.1335445, -71.1387574,
@@ -1023,7 +1023,7 @@ NULL, NULL,
 NOW(), NOW(), NOW()),
 
 -- Listing: 26 Faxon St #2 - Condo
-('st000001-0000-0000-0000-000000000024', 'REDFIN', '73410258', 'https://www.redfin.com/MA/Stoughton/26-Faxon-St-02072/unit-2/home/11732807', '73410258',
+('50000001-0000-0000-0000-000000000024', 'REDFIN', '73410258', 'https://www.redfin.com/MA/Stoughton/26-Faxon-St-02072/unit-2/home/11732807', '73410258',
 'MLS Listing', 'Active', NULL, '2025-07-27', 156,
 '26 Faxon St #2', '26 Faxon St', '#2', 'Stoughton', 'MA', '02072',
 'Stoughton', 42.1292686, -71.1046805,
@@ -1034,7 +1034,7 @@ NULL, NULL,
 NOW(), NOW(), NOW()),
 
 -- Listing: 1600 West St - Vacant Land
-('st000001-0000-0000-0000-000000000025', 'REDFIN', '73407375', 'https://www.redfin.com/MA/Stoughton/1600-West-St-02072/home/12439427', '73407375',
+('50000001-0000-0000-0000-000000000025', 'REDFIN', '73407375', 'https://www.redfin.com/MA/Stoughton/1600-West-St-02072/home/12439427', '73407375',
 'MLS Listing', 'Active', NULL, '2025-07-20', 163,
 '1600 West St', '1600 West St', NULL, 'Stoughton', 'MA', '02072',
 'Stoughton', 42.090863, -71.115791,
@@ -1045,7 +1045,7 @@ NULL, NULL,
 NOW(), NOW(), NOW()),
 
 -- Listing: Lot 1 Pondview Ln - Vacant Land
-('st000001-0000-0000-0000-000000000026', 'REDFIN', '73339839', 'https://www.redfin.com/MA/Stoughton/1-Pondview-Ln-02072/home/173464440', '73339839',
+('50000001-0000-0000-0000-000000000026', 'REDFIN', '73339839', 'https://www.redfin.com/MA/Stoughton/1-Pondview-Ln-02072/home/173464440', '73339839',
 'MLS Listing', 'Active', NULL, '2025-03-02', 304,
 'Lot 1 Pondview Ln', 'Lot 1 Pondview Ln', NULL, 'Stoughton', 'MA', '02072',
 'Stoughton', 42.1464309, -71.0851782,
@@ -1194,64 +1194,64 @@ INSERT INTO user_market_listing_list_items (
 ('ffffffff-3333-3333-3333-333333333333', '861445c0-0de0-4819-9df2-8aa4fc366c87', NOW()),  -- 2001 Marina Dr #211 (Marina Bay)
 
 -- Bridgewater Multi-Family list
-('ffffffff-4444-4444-4444-444444444444', 'bw000001-0000-0000-0000-000000000001', NOW()),  -- 48 Wall St
-('ffffffff-4444-4444-4444-444444444444', 'bw000001-0000-0000-0000-000000000017', NOW()),  -- 18 Aldrich Rd
-('ffffffff-4444-4444-4444-444444444444', 'bw000001-0000-0000-0000-000000000019', NOW()),  -- 130 Maple Ave
+('ffffffff-4444-4444-4444-444444444444', 'b0000001-0000-0000-0000-000000000001', NOW()),  -- 48 Wall St
+('ffffffff-4444-4444-4444-444444444444', 'b0000001-0000-0000-0000-000000000017', NOW()),  -- 18 Aldrich Rd
+('ffffffff-4444-4444-4444-444444444444', 'b0000001-0000-0000-0000-000000000019', NOW()),  -- 130 Maple Ave
 
 -- New Construction Bridgewater list
-('ffffffff-5555-5555-5555-555555555555', 'bw000001-0000-0000-0000-000000000007', NOW()),  -- 580 Broad St #1 (2025)
-('ffffffff-5555-5555-5555-555555555555', 'bw000001-0000-0000-0000-000000000008', NOW()),  -- 580 Broad St #2 (2025)
-('ffffffff-5555-5555-5555-555555555555', 'bw000001-0000-0000-0000-000000000009', NOW()),  -- 37 Titicut Ave Lot 34 (2026)
-('ffffffff-5555-5555-5555-555555555555', 'bw000001-0000-0000-0000-000000000010', NOW()),  -- 1 Jennifer Cir (2025)
-('ffffffff-5555-5555-5555-555555555555', 'bw000001-0000-0000-0000-000000000022', NOW()),  -- 32 Titicut Ave Lot 48 (2025)
-('ffffffff-5555-5555-5555-555555555555', 'bw000001-0000-0000-0000-000000000026', NOW()),  -- 73 Pratt Ave (2025)
+('ffffffff-5555-5555-5555-555555555555', 'b0000001-0000-0000-0000-000000000007', NOW()),  -- 580 Broad St #1 (2025)
+('ffffffff-5555-5555-5555-555555555555', 'b0000001-0000-0000-0000-000000000008', NOW()),  -- 580 Broad St #2 (2025)
+('ffffffff-5555-5555-5555-555555555555', 'b0000001-0000-0000-0000-000000000009', NOW()),  -- 37 Titicut Ave Lot 34 (2026)
+('ffffffff-5555-5555-5555-555555555555', 'b0000001-0000-0000-0000-000000000010', NOW()),  -- 1 Jennifer Cir (2025)
+('ffffffff-5555-5555-5555-555555555555', 'b0000001-0000-0000-0000-000000000022', NOW()),  -- 32 Titicut Ave Lot 48 (2025)
+('ffffffff-5555-5555-5555-555555555555', 'b0000001-0000-0000-0000-000000000026', NOW()),  -- 73 Pratt Ave (2025)
 
 -- Duxburrow Estates list
-('ffffffff-6666-6666-6666-666666666666', 'bw000001-0000-0000-0000-000000000009', NOW()),  -- 37 Titicut Ave Lot 34
-('ffffffff-6666-6666-6666-666666666666', 'bw000001-0000-0000-0000-000000000011', NOW()),  -- 60 Titicut Ave Lot 41
-('ffffffff-6666-6666-6666-666666666666', 'bw000001-0000-0000-0000-000000000016', NOW()),  -- 73 Pratt Ave Lot 126
-('ffffffff-6666-6666-6666-666666666666', 'bw000001-0000-0000-0000-000000000022', NOW()),  -- 32 Titicut Ave Lot 48
+('ffffffff-6666-6666-6666-666666666666', 'b0000001-0000-0000-0000-000000000009', NOW()),  -- 37 Titicut Ave Lot 34
+('ffffffff-6666-6666-6666-666666666666', 'b0000001-0000-0000-0000-000000000011', NOW()),  -- 60 Titicut Ave Lot 41
+('ffffffff-6666-6666-6666-666666666666', 'b0000001-0000-0000-0000-000000000016', NOW()),  -- 73 Pratt Ave Lot 126
+('ffffffff-6666-6666-6666-666666666666', 'b0000001-0000-0000-0000-000000000022', NOW()),  -- 32 Titicut Ave Lot 48
 
 -- Affordable Bridgewater list (under $400k)
-('ffffffff-7777-7777-7777-777777777777', 'bw000001-0000-0000-0000-000000000004', NOW()),  -- 220 Bedford St #32 ($319,900)
-('ffffffff-7777-7777-7777-777777777777', 'bw000001-0000-0000-0000-000000000006', NOW()),  -- 180 Main St Unit D80 ($237,500)
-('ffffffff-7777-7777-7777-777777777777', 'bw000001-0000-0000-0000-000000000012', NOW()),  -- 96 Trailwood Dr ($269,900)
-('ffffffff-7777-7777-7777-777777777777', 'bw000001-0000-0000-0000-000000000014', NOW()),  -- 180 Main St Unit A-15 ($309,900)
-('ffffffff-7777-7777-7777-777777777777', 'bw000001-0000-0000-0000-000000000015', NOW()),  -- 23 Stone Meadow Dr ($365,000)
+('ffffffff-7777-7777-7777-777777777777', 'b0000001-0000-0000-0000-000000000004', NOW()),  -- 220 Bedford St #32 ($319,900)
+('ffffffff-7777-7777-7777-777777777777', 'b0000001-0000-0000-0000-000000000006', NOW()),  -- 180 Main St Unit D80 ($237,500)
+('ffffffff-7777-7777-7777-777777777777', 'b0000001-0000-0000-0000-000000000012', NOW()),  -- 96 Trailwood Dr ($269,900)
+('ffffffff-7777-7777-7777-777777777777', 'b0000001-0000-0000-0000-000000000014', NOW()),  -- 180 Main St Unit A-15 ($309,900)
+('ffffffff-7777-7777-7777-777777777777', 'b0000001-0000-0000-0000-000000000015', NOW()),  -- 23 Stone Meadow Dr ($365,000)
 
 -- Investment Land list
-('ffffffff-8888-8888-8888-888888888888', 'bw000001-0000-0000-0000-000000000013', NOW()),  -- Lot 1 Mill
-('ffffffff-8888-8888-8888-888888888888', 'bw000001-0000-0000-0000-000000000023', NOW()),  -- Lot 2 Fontana Way
-('ffffffff-8888-8888-8888-888888888888', 'st000001-0000-0000-0000-000000000011', NOW()),  -- Lot 4 West St
-('ffffffff-8888-8888-8888-888888888888', 'st000001-0000-0000-0000-000000000025', NOW()),  -- 1600 West St
-('ffffffff-8888-8888-8888-888888888888', 'st000001-0000-0000-0000-000000000026', NOW()),  -- Lot 1 Pondview Ln
+('ffffffff-8888-8888-8888-888888888888', 'b0000001-0000-0000-0000-000000000013', NOW()),  -- Lot 1 Mill
+('ffffffff-8888-8888-8888-888888888888', 'b0000001-0000-0000-0000-000000000023', NOW()),  -- Lot 2 Fontana Way
+('ffffffff-8888-8888-8888-888888888888', '50000001-0000-0000-0000-000000000011', NOW()),  -- Lot 4 West St
+('ffffffff-8888-8888-8888-888888888888', '50000001-0000-0000-0000-000000000025', NOW()),  -- 1600 West St
+('ffffffff-8888-8888-8888-888888888888', '50000001-0000-0000-0000-000000000026', NOW()),  -- Lot 1 Pondview Ln
 
 -- Stoughton Multi-Family list
-('ffffffff-9999-9999-9999-999999999999', 'st000001-0000-0000-0000-000000000003', NOW()),  -- 293 School St (15 units)
-('ffffffff-9999-9999-9999-999999999999', 'st000001-0000-0000-0000-000000000010', NOW()),  -- 84 Pearl St (8 units)
-('ffffffff-9999-9999-9999-999999999999', 'st000001-0000-0000-0000-000000000012', NOW()),  -- 100 Water St (40 units)
-('ffffffff-9999-9999-9999-999999999999', 'st000001-0000-0000-0000-000000000022', NOW()),  -- 15-17 Morton Sq
+('ffffffff-9999-9999-9999-999999999999', '50000001-0000-0000-0000-000000000003', NOW()),  -- 293 School St (15 units)
+('ffffffff-9999-9999-9999-999999999999', '50000001-0000-0000-0000-000000000010', NOW()),  -- 84 Pearl St (8 units)
+('ffffffff-9999-9999-9999-999999999999', '50000001-0000-0000-0000-000000000012', NOW()),  -- 100 Water St (40 units)
+('ffffffff-9999-9999-9999-999999999999', '50000001-0000-0000-0000-000000000022', NOW()),  -- 15-17 Morton Sq
 
 -- Stoughton Townhouses list
-('ffffffff-aaaa-aaaa-aaaa-aaaaaaaaaaaa', 'st000001-0000-0000-0000-000000000001', NOW()),  -- 27 Rosewood Dr #27
-('ffffffff-aaaa-aaaa-aaaa-aaaaaaaaaaaa', 'st000001-0000-0000-0000-000000000007', NOW()),  -- 133 Greenbrook Dr #133
-('ffffffff-aaaa-aaaa-aaaa-aaaaaaaaaaaa', 'st000001-0000-0000-0000-000000000017', NOW()),  -- 64 Laurelwood Dr #64
-('ffffffff-aaaa-aaaa-aaaa-aaaaaaaaaaaa', 'st000001-0000-0000-0000-000000000019', NOW()),  -- 59 Rosewood Dr #59
-('ffffffff-aaaa-aaaa-aaaa-aaaaaaaaaaaa', 'st000001-0000-0000-0000-000000000013', NOW()),  -- 28 Faxon St #4
-('ffffffff-aaaa-aaaa-aaaa-aaaaaaaaaaaa', 'st000001-0000-0000-0000-000000000024', NOW()),  -- 26 Faxon St #2
+('ffffffff-aaaa-aaaa-aaaa-aaaaaaaaaaaa', '50000001-0000-0000-0000-000000000001', NOW()),  -- 27 Rosewood Dr #27
+('ffffffff-aaaa-aaaa-aaaa-aaaaaaaaaaaa', '50000001-0000-0000-0000-000000000007', NOW()),  -- 133 Greenbrook Dr #133
+('ffffffff-aaaa-aaaa-aaaa-aaaaaaaaaaaa', '50000001-0000-0000-0000-000000000017', NOW()),  -- 64 Laurelwood Dr #64
+('ffffffff-aaaa-aaaa-aaaa-aaaaaaaaaaaa', '50000001-0000-0000-0000-000000000019', NOW()),  -- 59 Rosewood Dr #59
+('ffffffff-aaaa-aaaa-aaaa-aaaaaaaaaaaa', '50000001-0000-0000-0000-000000000013', NOW()),  -- 28 Faxon St #4
+('ffffffff-aaaa-aaaa-aaaa-aaaaaaaaaaaa', '50000001-0000-0000-0000-000000000024', NOW()),  -- 26 Faxon St #2
 
 -- New Construction Stoughton list
-('ffffffff-bbbb-bbbb-bbbb-bbbbbbbbbbbb', 'st000001-0000-0000-0000-000000000002', NOW()),  -- 870 Turnpike St (2025)
-('ffffffff-bbbb-bbbb-bbbb-bbbbbbbbbbbb', 'st000001-0000-0000-0000-000000000009', NOW()),  -- 93 Palisades Cir (2025)
-('ffffffff-bbbb-bbbb-bbbb-bbbbbbbbbbbb', 'st000001-0000-0000-0000-000000000015', NOW()),  -- 25 Lawler Ln (2026)
-('ffffffff-bbbb-bbbb-bbbb-bbbbbbbbbbbb', 'st000001-0000-0000-0000-000000000016', NOW()),  -- 15 Lawler Ln (2026)
-('ffffffff-bbbb-bbbb-bbbb-bbbbbbbbbbbb', 'st000001-0000-0000-0000-000000000021', NOW()),  -- 4 Eagle Rock Ext (2027)
+('ffffffff-bbbb-bbbb-bbbb-bbbbbbbbbbbb', '50000001-0000-0000-0000-000000000002', NOW()),  -- 870 Turnpike St (2025)
+('ffffffff-bbbb-bbbb-bbbb-bbbbbbbbbbbb', '50000001-0000-0000-0000-000000000009', NOW()),  -- 93 Palisades Cir (2025)
+('ffffffff-bbbb-bbbb-bbbb-bbbbbbbbbbbb', '50000001-0000-0000-0000-000000000015', NOW()),  -- 25 Lawler Ln (2026)
+('ffffffff-bbbb-bbbb-bbbb-bbbbbbbbbbbb', '50000001-0000-0000-0000-000000000016', NOW()),  -- 15 Lawler Ln (2026)
+('ffffffff-bbbb-bbbb-bbbb-bbbbbbbbbbbb', '50000001-0000-0000-0000-000000000021', NOW()),  -- 4 Eagle Rock Ext (2027)
 
 -- Luxury Stoughton Homes list (over $1M)
-('ffffffff-cccc-cccc-cccc-cccccccccccc', 'st000001-0000-0000-0000-000000000009', NOW()),  -- 93 Palisades Cir ($1,499,900)
-('ffffffff-cccc-cccc-cccc-cccccccccccc', 'st000001-0000-0000-0000-000000000010', NOW()),  -- 84 Pearl St ($1,488,000)
-('ffffffff-cccc-cccc-cccc-cccccccccccc', 'st000001-0000-0000-0000-000000000012', NOW()),  -- 100 Water St ($7,900,000)
-('ffffffff-cccc-cccc-cccc-cccccccccccc', 'st000001-0000-0000-0000-000000000015', NOW()),  -- 25 Lawler Ln ($1,325,000)
-('ffffffff-cccc-cccc-cccc-cccccccccccc', 'st000001-0000-0000-0000-000000000016', NOW()),  -- 15 Lawler Ln ($1,225,000)
-('ffffffff-cccc-cccc-cccc-cccccccccccc', 'st000001-0000-0000-0000-000000000021', NOW());  -- 4 Eagle Rock Ext ($1,695,713)
+('ffffffff-cccc-cccc-cccc-cccccccccccc', '50000001-0000-0000-0000-000000000009', NOW()),  -- 93 Palisades Cir ($1,499,900)
+('ffffffff-cccc-cccc-cccc-cccccccccccc', '50000001-0000-0000-0000-000000000010', NOW()),  -- 84 Pearl St ($1,488,000)
+('ffffffff-cccc-cccc-cccc-cccccccccccc', '50000001-0000-0000-0000-000000000012', NOW()),  -- 100 Water St ($7,900,000)
+('ffffffff-cccc-cccc-cccc-cccccccccccc', '50000001-0000-0000-0000-000000000015', NOW()),  -- 25 Lawler Ln ($1,325,000)
+('ffffffff-cccc-cccc-cccc-cccccccccccc', '50000001-0000-0000-0000-000000000016', NOW()),  -- 15 Lawler Ln ($1,225,000)
+('ffffffff-cccc-cccc-cccc-cccccccccccc', '50000001-0000-0000-0000-000000000021', NOW());  -- 4 Eagle Rock Ext ($1,695,713)
 
