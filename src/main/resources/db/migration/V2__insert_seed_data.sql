@@ -766,6 +766,293 @@ NOW(), NOW(), NOW()),
 1029000.00, 350.00, NULL, NULL,
 NULL, NULL,
 '{"SALE TYPE": "New Construction Home", "PROPERTY TYPE": "Single Family Residential", "ADDRESS": "73 Pratt Ave", "CITY": "Bridgewater", "STATE OR PROVINCE": "MA", "ZIP OR POSTAL CODE": "02324", "PRICE": "1029000", "BEDS": "4", "BATHS": "2.5", "LOCATION": "Bridgewater", "SQUARE FEET": "2940", "YEAR BUILT": "2025", "DAYS ON MARKET": "355", "$/SQUARE FEET": "350", "STATUS": "Active", "URL": "https://www.redfin.com/MA/Bridgewater/73-Pratt-Ave-02324/home/174898841", "SOURCE": "Zillow", "MLS#": "0BAB3DEC0075", "INTERESTED": "Y", "LATITUDE": "41.966918", "LONGITUDE": "-70.941427"}',
+NOW(), NOW(), NOW()),
+
+-- Stoughton, MA listings
+-- Listing: 27 Rosewood Dr #27 - Townhouse
+('st000001-0000-0000-0000-000000000001', 'REDFIN', '73464237', 'https://www.redfin.com/MA/Stoughton/27-Rosewood-Dr-02072/unit-27/home/199883913', '73464237',
+'MLS Listing', 'Active', NULL, '2025-12-30', 1,
+'27 Rosewood Dr #27', '27 Rosewood Dr', '#27', 'Stoughton', 'MA', '02072',
+'Stoughton', 42.1416861, -71.1322969,
+'Townhouse', 2, 1.5, 1260, NULL, 1973,
+429000.00, 340.00, NULL, 675.00,
+'2026-01-03 11:30:00', '2026-01-03 13:30:00',
+'{"SALE TYPE": "MLS Listing", "PROPERTY TYPE": "Townhouse", "ADDRESS": "27 Rosewood Dr #27", "CITY": "Stoughton", "STATE OR PROVINCE": "MA", "ZIP OR POSTAL CODE": "02072", "PRICE": "429000", "BEDS": "2", "BATHS": "1.5", "LOCATION": "Stoughton", "SQUARE FEET": "1260", "YEAR BUILT": "1973", "DAYS ON MARKET": "1", "$/SQUARE FEET": "340", "HOA/MONTH": "675", "STATUS": "Active", "NEXT OPEN HOUSE START TIME": "January-3-2026 11:30 AM", "NEXT OPEN HOUSE END TIME": "January-3-2026 01:30 PM", "URL": "https://www.redfin.com/MA/Stoughton/27-Rosewood-Dr-02072/unit-27/home/199883913", "SOURCE": "MLS PIN", "MLS#": "73464237", "INTERESTED": "Y", "LATITUDE": "42.1416861", "LONGITUDE": "-71.1322969"}',
+NOW(), NOW(), NOW()),
+
+-- Listing: 870 Turnpike St - Single Family
+('st000001-0000-0000-0000-000000000002', 'REDFIN', '73463544', 'https://www.redfin.com/MA/Stoughton/870-Turnpike-St-02072/home/199764873', '73463544',
+'MLS Listing', 'Active', NULL, '2025-12-23', 8,
+'870 Turnpike St', '870 Turnpike St', NULL, 'Stoughton', 'MA', '02072',
+'Stoughton', 42.1311729, -71.0776658,
+'Single Family Residential', 4, 2.5, 1904, 498761, 2025,
+849900.00, 446.00, NULL, NULL,
+NULL, NULL,
+'{"SALE TYPE": "MLS Listing", "PROPERTY TYPE": "Single Family Residential", "ADDRESS": "870 Turnpike St", "CITY": "Stoughton", "STATE OR PROVINCE": "MA", "ZIP OR POSTAL CODE": "02072", "PRICE": "849900", "BEDS": "4", "BATHS": "2.5", "LOCATION": "Stoughton", "SQUARE FEET": "1904", "LOT SIZE": "498761", "YEAR BUILT": "2025", "DAYS ON MARKET": "8", "$/SQUARE FEET": "446", "STATUS": "Active", "URL": "https://www.redfin.com/MA/Stoughton/870-Turnpike-St-02072/home/199764873", "SOURCE": "MLS PIN", "MLS#": "73463544", "INTERESTED": "Y", "LATITUDE": "42.1311729", "LONGITUDE": "-71.0776658"}',
+NOW(), NOW(), NOW()),
+
+-- Listing: 293 School St - Multi-Family (5+ Unit)
+('st000001-0000-0000-0000-000000000003', 'REDFIN', '73463164', 'https://www.redfin.com/MA/Stoughton/293-School-St-02072/home/11729564', '73463164',
+'MLS Listing', 'Active', NULL, '2025-12-19', 12,
+'293 School St', '293 School St', NULL, 'Stoughton', 'MA', '02072',
+'Stoughton', 42.1233537, -71.1108949,
+'Multi-Family (5+ Unit)', 15, 8.0, 6139, 11456, 1920,
+2550000.00, 415.00, NULL, NULL,
+NULL, NULL,
+'{"SALE TYPE": "MLS Listing", "PROPERTY TYPE": "Multi-Family (5+ Unit)", "ADDRESS": "293 School St", "CITY": "Stoughton", "STATE OR PROVINCE": "MA", "ZIP OR POSTAL CODE": "02072", "PRICE": "2550000", "BEDS": "15", "BATHS": "8.0", "LOCATION": "Stoughton", "SQUARE FEET": "6139", "LOT SIZE": "11456", "YEAR BUILT": "1920", "DAYS ON MARKET": "12", "$/SQUARE FEET": "415", "STATUS": "Active", "URL": "https://www.redfin.com/MA/Stoughton/293-School-St-02072/home/11729564", "SOURCE": "MLS PIN", "MLS#": "73463164", "INTERESTED": "Y", "LATITUDE": "42.1233537", "LONGITUDE": "-71.1108949"}',
+NOW(), NOW(), NOW()),
+
+-- Listing: 292 Prospect St - Single Family
+('st000001-0000-0000-0000-000000000004', 'REDFIN', '73463110', 'https://www.redfin.com/MA/Stoughton/292-Prospect-St-02072/home/11736408', '73463110',
+'MLS Listing', 'Active', NULL, '2025-12-19', 12,
+'292 Prospect St', '292 Prospect St', NULL, 'Stoughton', 'MA', '02072',
+'Stoughton', 42.1239129, -71.0911194,
+'Single Family Residential', 3, 2.0, 1915, 19820, 1947,
+580000.00, 303.00, NULL, NULL,
+NULL, NULL,
+'{"SALE TYPE": "MLS Listing", "PROPERTY TYPE": "Single Family Residential", "ADDRESS": "292 Prospect St", "CITY": "Stoughton", "STATE OR PROVINCE": "MA", "ZIP OR POSTAL CODE": "02072", "PRICE": "580000", "BEDS": "3", "BATHS": "2.0", "LOCATION": "Stoughton", "SQUARE FEET": "1915", "LOT SIZE": "19820", "YEAR BUILT": "1947", "DAYS ON MARKET": "12", "$/SQUARE FEET": "303", "STATUS": "Active", "URL": "https://www.redfin.com/MA/Stoughton/292-Prospect-St-02072/home/11736408", "SOURCE": "MLS PIN", "MLS#": "73463110", "INTERESTED": "Y", "LATITUDE": "42.1239129", "LONGITUDE": "-71.0911194"}',
+NOW(), NOW(), NOW()),
+
+-- Listing: 194 Ewing Dr - Single Family
+('st000001-0000-0000-0000-000000000005', 'REDFIN', '73463077', 'https://www.redfin.com/MA/Stoughton/194-Ewing-Dr-02072/home/11738199', '73463077',
+'MLS Listing', 'Active', NULL, '2025-12-18', 13,
+'194 Ewing Dr', '194 Ewing Dr', NULL, 'Stoughton', 'MA', '02072',
+'Stoughton', 42.1406661, -71.0973901,
+'Single Family Residential', 3, 2.0, 2033, 19776, 1970,
+559000.00, 275.00, NULL, NULL,
+NULL, NULL,
+'{"SALE TYPE": "MLS Listing", "PROPERTY TYPE": "Single Family Residential", "ADDRESS": "194 Ewing Dr", "CITY": "Stoughton", "STATE OR PROVINCE": "MA", "ZIP OR POSTAL CODE": "02072", "PRICE": "559000", "BEDS": "3", "BATHS": "2.0", "LOCATION": "Stoughton", "SQUARE FEET": "2033", "LOT SIZE": "19776", "YEAR BUILT": "1970", "DAYS ON MARKET": "13", "$/SQUARE FEET": "275", "STATUS": "Active", "URL": "https://www.redfin.com/MA/Stoughton/194-Ewing-Dr-02072/home/11738199", "SOURCE": "MLS PIN", "MLS#": "73463077", "INTERESTED": "Y", "LATITUDE": "42.1406661", "LONGITUDE": "-71.0973901"}',
+NOW(), NOW(), NOW()),
+
+-- Listing: 42 Brewster Rd #42 - Single Family (Pond View Village)
+('st000001-0000-0000-0000-000000000006', 'REDFIN', '73462126', 'https://www.redfin.com/MA/Stoughton/42-Brewster-Rd-02072/unit-42/home/59289847', '73462126',
+'MLS Listing', 'Active', NULL, '2025-12-14', 17,
+'42 Brewster Rd #42', '42 Brewster Rd', '#42', 'Stoughton', 'MA', '02072',
+'Pond View Village', 42.1223923, -71.0708316,
+'Single Family Residential', 2, 2.0, 1240, 1200, 2010,
+579000.00, 467.00, NULL, NULL,
+NULL, NULL,
+'{"SALE TYPE": "MLS Listing", "PROPERTY TYPE": "Single Family Residential", "ADDRESS": "42 Brewster Rd #42", "CITY": "Stoughton", "STATE OR PROVINCE": "MA", "ZIP OR POSTAL CODE": "02072", "PRICE": "579000", "BEDS": "2", "BATHS": "2.0", "LOCATION": "Pond View Village", "SQUARE FEET": "1240", "LOT SIZE": "1200", "YEAR BUILT": "2010", "DAYS ON MARKET": "17", "$/SQUARE FEET": "467", "STATUS": "Active", "URL": "https://www.redfin.com/MA/Stoughton/42-Brewster-Rd-02072/unit-42/home/59289847", "SOURCE": "MLS PIN", "MLS#": "73462126", "INTERESTED": "Y", "LATITUDE": "42.1223923", "LONGITUDE": "-71.0708316"}',
+NOW(), NOW(), NOW()),
+
+-- Listing: 133 Greenbrook Dr #133 - Townhouse
+('st000001-0000-0000-0000-000000000007', 'REDFIN', '73461169', 'https://www.redfin.com/MA/Stoughton/133-Greenbrook-Dr-02072/unit-133/home/199587142', '73461169',
+'MLS Listing', 'Active', NULL, '2025-12-10', 21,
+'133 Greenbrook Dr #133', '133 Greenbrook Dr', '#133', 'Stoughton', 'MA', '02072',
+'Stoughton', 42.1396686, -71.1346106,
+'Townhouse', 2, 1.5, 1504, NULL, 1976,
+429000.00, 285.00, NULL, 487.00,
+NULL, NULL,
+'{"SALE TYPE": "MLS Listing", "PROPERTY TYPE": "Townhouse", "ADDRESS": "133 Greenbrook Dr #133", "CITY": "Stoughton", "STATE OR PROVINCE": "MA", "ZIP OR POSTAL CODE": "02072", "PRICE": "429000", "BEDS": "2", "BATHS": "1.5", "LOCATION": "Stoughton", "SQUARE FEET": "1504", "YEAR BUILT": "1976", "DAYS ON MARKET": "21", "$/SQUARE FEET": "285", "HOA/MONTH": "487", "STATUS": "Active", "URL": "https://www.redfin.com/MA/Stoughton/133-Greenbrook-Dr-02072/unit-133/home/199587142", "SOURCE": "MLS PIN", "MLS#": "73461169", "INTERESTED": "Y", "LATITUDE": "42.1396686", "LONGITUDE": "-71.1346106"}',
+NOW(), NOW(), NOW()),
+
+-- Listing: 163 Pearl St - Single Family
+('st000001-0000-0000-0000-000000000008', 'REDFIN', '73458940', 'https://www.redfin.com/MA/Stoughton/163-Pearl-St-02072/home/11732723', '73458940',
+'MLS Listing', 'Active', NULL, '2025-12-02', 29,
+'163 Pearl St', '163 Pearl St', NULL, 'Stoughton', 'MA', '02072',
+'Stoughton', 42.129409, -71.1065319,
+'Single Family Residential', 3, 2.0, 1728, 13504, 1960,
+639000.00, 370.00, NULL, NULL,
+NULL, NULL,
+'{"SALE TYPE": "MLS Listing", "PROPERTY TYPE": "Single Family Residential", "ADDRESS": "163 Pearl St", "CITY": "Stoughton", "STATE OR PROVINCE": "MA", "ZIP OR POSTAL CODE": "02072", "PRICE": "639000", "BEDS": "3", "BATHS": "2.0", "LOCATION": "Stoughton", "SQUARE FEET": "1728", "LOT SIZE": "13504", "YEAR BUILT": "1960", "DAYS ON MARKET": "29", "$/SQUARE FEET": "370", "STATUS": "Active", "URL": "https://www.redfin.com/MA/Stoughton/163-Pearl-St-02072/home/11732723", "SOURCE": "MLS PIN", "MLS#": "73458940", "INTERESTED": "Y", "LATITUDE": "42.129409", "LONGITUDE": "-71.1065319"}',
+NOW(), NOW(), NOW()),
+
+-- Listing: 93 Palisades Cir - Single Family
+('st000001-0000-0000-0000-000000000009', 'REDFIN', '73458449', 'https://www.redfin.com/MA/Stoughton/93-Palisades-Cir-02072/home/190229848', '73458449',
+'MLS Listing', 'Active', NULL, '2025-12-01', 30,
+'93 Palisades Cir', '93 Palisades Cir', NULL, 'Stoughton', 'MA', '02072',
+'Stoughton', 42.084142, -71.1121875,
+'Single Family Residential', 4, 4.5, 3500, 41338, 2025,
+1499900.00, 429.00, NULL, NULL,
+NULL, NULL,
+'{"SALE TYPE": "MLS Listing", "PROPERTY TYPE": "Single Family Residential", "ADDRESS": "93 Palisades Cir", "CITY": "Stoughton", "STATE OR PROVINCE": "MA", "ZIP OR POSTAL CODE": "02072", "PRICE": "1499900", "BEDS": "4", "BATHS": "4.5", "LOCATION": "Stoughton", "SQUARE FEET": "3500", "LOT SIZE": "41338", "YEAR BUILT": "2025", "DAYS ON MARKET": "30", "$/SQUARE FEET": "429", "STATUS": "Active", "URL": "https://www.redfin.com/MA/Stoughton/93-Palisades-Cir-02072/home/190229848", "SOURCE": "MLS PIN", "MLS#": "73458449", "INTERESTED": "Y", "LATITUDE": "42.084142", "LONGITUDE": "-71.1121875"}',
+NOW(), NOW(), NOW()),
+
+-- Listing: 84 Pearl St - Multi-Family (5+ Unit)
+('st000001-0000-0000-0000-000000000010', 'REDFIN', '73457286', 'https://www.redfin.com/MA/Stoughton/84-Pearl-St-02072/home/11732894', '73457286',
+'MLS Listing', 'Active', NULL, '2025-11-22', 39,
+'84 Pearl St', '84 Pearl St', NULL, 'Stoughton', 'MA', '02072',
+'Stoughton', 42.1274125, -71.1043603,
+'Multi-Family (5+ Unit)', 8, 5.0, 5165, 22041, 1930,
+1488000.00, 288.00, NULL, NULL,
+NULL, NULL,
+'{"SALE TYPE": "MLS Listing", "PROPERTY TYPE": "Multi-Family (5+ Unit)", "ADDRESS": "84 Pearl St", "CITY": "Stoughton", "STATE OR PROVINCE": "MA", "ZIP OR POSTAL CODE": "02072", "PRICE": "1488000", "BEDS": "8", "BATHS": "5.0", "LOCATION": "Stoughton", "SQUARE FEET": "5165", "LOT SIZE": "22041", "YEAR BUILT": "1930", "DAYS ON MARKET": "39", "$/SQUARE FEET": "288", "STATUS": "Active", "URL": "https://www.redfin.com/MA/Stoughton/84-Pearl-St-02072/home/11732894", "SOURCE": "MLS PIN", "MLS#": "73457286", "INTERESTED": "Y", "LATITUDE": "42.1274125", "LONGITUDE": "-71.1043603"}',
+NOW(), NOW(), NOW()),
+
+-- Listing: Lot 4 West St - Vacant Land
+('st000001-0000-0000-0000-000000000011', 'REDFIN', '73456101', 'https://www.redfin.com/MA/Stoughton/4-West-St-02072/home/172650333', '73456101',
+'MLS Listing', 'Active', NULL, '2025-11-19', 43,
+'Lot 4 West St', 'Lot 4 West St', NULL, 'Stoughton', 'MA', '02072',
+'Stoughton', 42.130673, -71.1298848,
+'Vacant Land', NULL, NULL, NULL, 76666, NULL,
+439900.00, NULL, NULL, NULL,
+NULL, NULL,
+'{"SALE TYPE": "MLS Listing", "PROPERTY TYPE": "Vacant Land", "ADDRESS": "Lot 4 West St", "CITY": "Stoughton", "STATE OR PROVINCE": "MA", "ZIP OR POSTAL CODE": "02072", "PRICE": "439900", "LOCATION": "Stoughton", "LOT SIZE": "76666", "DAYS ON MARKET": "43", "STATUS": "Active", "URL": "https://www.redfin.com/MA/Stoughton/4-West-St-02072/home/172650333", "SOURCE": "MLS PIN", "MLS#": "73456101", "INTERESTED": "Y", "LATITUDE": "42.130673", "LONGITUDE": "-71.1298848"}',
+NOW(), NOW(), NOW()),
+
+-- Listing: 100 Water St - Multi-Family (5+ Unit)
+('st000001-0000-0000-0000-000000000012', 'REDFIN', '73455615', 'https://www.redfin.com/MA/Stoughton/100-Water-St-02072/home/11731355', '73455615',
+'MLS Listing', 'Active', NULL, '2025-11-18', 44,
+'100 Water St', '100 Water St', NULL, 'Stoughton', 'MA', '02072',
+'Stoughton', 42.1216669, -71.1085865,
+'Multi-Family (5+ Unit)', 40, 29.0, 26910, 65340, 1972,
+7900000.00, 294.00, NULL, NULL,
+NULL, NULL,
+'{"SALE TYPE": "MLS Listing", "PROPERTY TYPE": "Multi-Family (5+ Unit)", "ADDRESS": "100 Water St", "CITY": "Stoughton", "STATE OR PROVINCE": "MA", "ZIP OR POSTAL CODE": "02072", "PRICE": "7900000", "BEDS": "40", "BATHS": "29.0", "LOCATION": "Stoughton", "SQUARE FEET": "26910", "LOT SIZE": "65340", "YEAR BUILT": "1972", "DAYS ON MARKET": "44", "$/SQUARE FEET": "294", "STATUS": "Active", "URL": "https://www.redfin.com/MA/Stoughton/100-Water-St-02072/home/11731355", "SOURCE": "MLS PIN", "MLS#": "73455615", "INTERESTED": "Y", "LATITUDE": "42.1216669", "LONGITUDE": "-71.1085865"}',
+NOW(), NOW(), NOW()),
+
+-- Listing: 28 Faxon St #4 - Condo
+('st000001-0000-0000-0000-000000000013', 'REDFIN', '73451615', 'https://www.redfin.com/MA/Stoughton/28-Faxon-St-02072/unit-4/home/11732848', '73451615',
+'MLS Listing', 'Active', NULL, '2025-11-06', 56,
+'28 Faxon St #4', '28 Faxon St', '#4', 'Stoughton', 'MA', '02072',
+'Stoughton', 42.1292686, -71.1046805,
+'Condo/Co-op', 1, 1.0, 720, NULL, 1970,
+247900.00, 344.00, NULL, 301.00,
+NULL, NULL,
+'{"SALE TYPE": "MLS Listing", "PROPERTY TYPE": "Condo/Co-op", "ADDRESS": "28 Faxon St #4", "CITY": "Stoughton", "STATE OR PROVINCE": "MA", "ZIP OR POSTAL CODE": "02072", "PRICE": "247900", "BEDS": "1", "BATHS": "1.0", "LOCATION": "Stoughton", "SQUARE FEET": "720", "YEAR BUILT": "1970", "DAYS ON MARKET": "56", "$/SQUARE FEET": "344", "HOA/MONTH": "301", "STATUS": "Active", "URL": "https://www.redfin.com/MA/Stoughton/28-Faxon-St-02072/unit-4/home/11732848", "SOURCE": "MLS PIN", "MLS#": "73451615", "INTERESTED": "Y", "LATITUDE": "42.1292686", "LONGITUDE": "-71.1046805"}',
+NOW(), NOW(), NOW()),
+
+-- Listing: 19 Camelot Ct #19 - Single Family
+('st000001-0000-0000-0000-000000000014', 'REDFIN', '73451436', 'https://www.redfin.com/MA/Stoughton/19-Camelot-Ct-02072/unit-19/home/77508242', '73451436',
+'MLS Listing', 'Active', NULL, '2025-11-06', 56,
+'19 Camelot Ct #19', '19 Camelot Ct', '#19', 'Stoughton', 'MA', '02072',
+'Stoughton', 42.143415, -71.0789137,
+'Single Family Residential', 3, 2.5, 1676, 3484, 1982,
+579900.00, 346.00, NULL, 534.00,
+'2026-01-03 14:30:00', '2026-01-03 16:00:00',
+'{"SALE TYPE": "MLS Listing", "PROPERTY TYPE": "Single Family Residential", "ADDRESS": "19 Camelot Ct #19", "CITY": "Stoughton", "STATE OR PROVINCE": "MA", "ZIP OR POSTAL CODE": "02072", "PRICE": "579900", "BEDS": "3", "BATHS": "2.5", "LOCATION": "Stoughton", "SQUARE FEET": "1676", "LOT SIZE": "3484", "YEAR BUILT": "1982", "DAYS ON MARKET": "56", "$/SQUARE FEET": "346", "HOA/MONTH": "534", "STATUS": "Active", "NEXT OPEN HOUSE START TIME": "January-3-2026 02:30 PM", "NEXT OPEN HOUSE END TIME": "January-3-2026 04:00 PM", "URL": "https://www.redfin.com/MA/Stoughton/19-Camelot-Ct-02072/unit-19/home/77508242", "SOURCE": "MLS PIN", "MLS#": "73451436", "INTERESTED": "Y", "LATITUDE": "42.143415", "LONGITUDE": "-71.0789137"}',
+NOW(), NOW(), NOW()),
+
+-- Listing: 25 Lawler Ln (lot 7) - Single Family
+('st000001-0000-0000-0000-000000000015', 'REDFIN', '73449984', 'https://www.redfin.com/MA/Stoughton/25-Lawler-Ln-02072/home/178218244', '73449984',
+'MLS Listing', 'Active', NULL, '2025-11-01', 61,
+'25 Lawler Ln (lot 7)', '25 Lawler Ln', '(lot 7)', 'Stoughton', 'MA', '02072',
+'Stoughton', 42.1267786, -71.0909805,
+'Single Family Residential', 4, 2.5, 3200, 35283, 2026,
+1325000.00, 414.00, NULL, NULL,
+NULL, NULL,
+'{"SALE TYPE": "MLS Listing", "PROPERTY TYPE": "Single Family Residential", "ADDRESS": "25 Lawler Ln (lot 7)", "CITY": "Stoughton", "STATE OR PROVINCE": "MA", "ZIP OR POSTAL CODE": "02072", "PRICE": "1325000", "BEDS": "4", "BATHS": "2.5", "LOCATION": "Stoughton", "SQUARE FEET": "3200", "LOT SIZE": "35283", "YEAR BUILT": "2026", "DAYS ON MARKET": "61", "$/SQUARE FEET": "414", "STATUS": "Active", "URL": "https://www.redfin.com/MA/Stoughton/25-Lawler-Ln-02072/home/178218244", "SOURCE": "MLS PIN", "MLS#": "73449984", "INTERESTED": "Y", "LATITUDE": "42.1267786", "LONGITUDE": "-71.0909805"}',
+NOW(), NOW(), NOW()),
+
+-- Listing: 15 Lawler Ln (lot 8) - Single Family
+('st000001-0000-0000-0000-000000000016', 'REDFIN', '73449983', 'https://www.redfin.com/MA/Stoughton/15-Lawler-Ln-02072/home/178218245', '73449983',
+'MLS Listing', 'Active', NULL, '2025-11-01', 61,
+'15 Lawler Ln (lot 8)', '15 Lawler Ln', '(lot 8)', 'Stoughton', 'MA', '02072',
+'Stoughton', 42.1270586, -71.0911105,
+'Single Family Residential', 4, 2.5, 2800, 37461, 2026,
+1225000.00, 438.00, NULL, NULL,
+NULL, NULL,
+'{"SALE TYPE": "MLS Listing", "PROPERTY TYPE": "Single Family Residential", "ADDRESS": "15 Lawler Ln (lot 8)", "CITY": "Stoughton", "STATE OR PROVINCE": "MA", "ZIP OR POSTAL CODE": "02072", "PRICE": "1225000", "BEDS": "4", "BATHS": "2.5", "LOCATION": "Stoughton", "SQUARE FEET": "2800", "LOT SIZE": "37461", "YEAR BUILT": "2026", "DAYS ON MARKET": "61", "$/SQUARE FEET": "438", "STATUS": "Active", "URL": "https://www.redfin.com/MA/Stoughton/15-Lawler-Ln-02072/home/178218245", "SOURCE": "MLS PIN", "MLS#": "73449983", "INTERESTED": "Y", "LATITUDE": "42.1270586", "LONGITUDE": "-71.0911105"}',
+NOW(), NOW(), NOW()),
+
+-- Listing: 64 Laurelwood Dr #64 - Townhouse
+('st000001-0000-0000-0000-000000000017', 'REDFIN', '73448461', 'https://www.redfin.com/MA/Stoughton/64-Laurelwood-Dr-02072/unit-64/home/77502251', '73448461',
+'MLS Listing', 'Active', NULL, '2025-10-28', 64,
+'64 Laurelwood Dr #64', '64 Laurelwood Dr', '#64', 'Stoughton', 'MA', '02072',
+'Stoughton', 42.1423412, -71.133671,
+'Townhouse', 3, 2.5, 1560, NULL, 1974,
+499000.00, 320.00, NULL, 844.00,
+NULL, NULL,
+'{"SALE TYPE": "MLS Listing", "PROPERTY TYPE": "Townhouse", "ADDRESS": "64 Laurelwood Dr #64", "CITY": "Stoughton", "STATE OR PROVINCE": "MA", "ZIP OR POSTAL CODE": "02072", "PRICE": "499000", "BEDS": "3", "BATHS": "2.5", "LOCATION": "Stoughton", "SQUARE FEET": "1560", "LOT SIZE": null, "YEAR BUILT": "1974", "DAYS ON MARKET": "64", "$/SQUARE FEET": "320", "HOA/MONTH": "844", "STATUS": "Active", "URL": "https://www.redfin.com/MA/Stoughton/64-Laurelwood-Dr-02072/unit-64/home/77502251", "SOURCE": "MLS PIN", "MLS#": "73448461", "INTERESTED": "Y", "LATITUDE": "42.1423412", "LONGITUDE": "-71.133671"}',
+NOW(), NOW(), NOW()),
+
+-- Listing: 511 Sumner St - Single Family
+('st000001-0000-0000-0000-000000000018', 'REDFIN', '73445805', 'https://www.redfin.com/MA/Stoughton/511-Sumner-St-02072/home/11735000', '73445805',
+'MLS Listing', 'Active', NULL, '2025-10-21', 71,
+'511 Sumner St', '511 Sumner St', NULL, 'Stoughton', 'MA', '02072',
+'Stoughton', 42.1102008, -71.086802,
+'Single Family Residential', 4, 3.0, 2262, 95832, 1932,
+774900.00, 343.00, NULL, NULL,
+NULL, NULL,
+'{"SALE TYPE": "MLS Listing", "PROPERTY TYPE": "Single Family Residential", "ADDRESS": "511 Sumner St", "CITY": "Stoughton", "STATE OR PROVINCE": "MA", "ZIP OR POSTAL CODE": "02072", "PRICE": "774900", "BEDS": "4", "BATHS": "3.0", "LOCATION": "Stoughton", "SQUARE FEET": "2262", "LOT SIZE": "95832", "YEAR BUILT": "1932", "DAYS ON MARKET": "71", "$/SQUARE FEET": "343", "STATUS": "Active", "URL": "https://www.redfin.com/MA/Stoughton/511-Sumner-St-02072/home/11735000", "SOURCE": "MLS PIN", "MLS#": "73445805", "INTERESTED": "Y", "LATITUDE": "42.1102008", "LONGITUDE": "-71.086802"}',
+NOW(), NOW(), NOW()),
+
+-- Listing: 59 Rosewood Dr #59 - Townhouse
+('st000001-0000-0000-0000-000000000019', 'REDFIN', '73442393', 'https://www.redfin.com/MA/Stoughton/59-Rosewood-Dr-02072/unit-59/home/77493044', '73442393',
+'MLS Listing', 'Active', NULL, '2025-10-14', 78,
+'59 Rosewood Dr #59', '59 Rosewood Dr', '#59', 'Stoughton', 'MA', '02072',
+'Stoughton', 42.1419548, -71.1336072,
+'Townhouse', 3, 1.5, 1230, NULL, 1974,
+375000.00, 305.00, NULL, 691.00,
+NULL, NULL,
+'{"SALE TYPE": "MLS Listing", "PROPERTY TYPE": "Townhouse", "ADDRESS": "59 Rosewood Dr #59", "CITY": "Stoughton", "STATE OR PROVINCE": "MA", "ZIP OR POSTAL CODE": "02072", "PRICE": "375000", "BEDS": "3", "BATHS": "1.5", "LOCATION": "Stoughton", "SQUARE FEET": "1230", "YEAR BUILT": "1974", "DAYS ON MARKET": "78", "$/SQUARE FEET": "305", "HOA/MONTH": "691", "STATUS": "Active", "URL": "https://www.redfin.com/MA/Stoughton/59-Rosewood-Dr-02072/unit-59/home/77493044", "SOURCE": "MLS PIN", "MLS#": "73442393", "INTERESTED": "Y", "LATITUDE": "42.1419548", "LONGITUDE": "-71.1336072"}',
+NOW(), NOW(), NOW()),
+
+-- Listing: 1000 Pleasant St - Single Family
+('st000001-0000-0000-0000-000000000020', 'REDFIN', '73433657', 'https://www.redfin.com/MA/Stoughton/1000-Pleasant-St-02072/home/11740968', '73433657',
+'MLS Listing', 'Active', NULL, '2025-09-20', 102,
+'1000 Pleasant St', '1000 Pleasant St', NULL, 'Stoughton', 'MA', '02072',
+'Stoughton', 42.1436863, -71.0767789,
+'Single Family Residential', 4, 2.0, 1620, NULL, 1960,
+609000.00, 376.00, NULL, NULL,
+NULL, NULL,
+'{"SALE TYPE": "MLS Listing", "PROPERTY TYPE": "Single Family Residential", "ADDRESS": "1000 Pleasant St", "CITY": "Stoughton", "STATE OR PROVINCE": "MA", "ZIP OR POSTAL CODE": "02072", "PRICE": "609000", "BEDS": "4", "BATHS": "2.0", "LOCATION": "Stoughton", "SQUARE FEET": "1620", "YEAR BUILT": "1960", "DAYS ON MARKET": "102", "$/SQUARE FEET": "376", "STATUS": "Active", "URL": "https://www.redfin.com/MA/Stoughton/1000-Pleasant-St-02072/home/11740968", "SOURCE": "MLS PIN", "MLS#": "73433657", "INTERESTED": "Y", "LATITUDE": "42.1436863", "LONGITUDE": "-71.0767789"}',
+NOW(), NOW(), NOW()),
+
+-- Listing: 4 Eagle Rock Ext - Single Family (Eagle Rock Passive Homes)
+('st000001-0000-0000-0000-000000000021', 'REDFIN', '73432837', 'https://www.redfin.com/MA/Stoughton/4-Eagle-Rock-Rd-02072/home/11723153', '73432837',
+'MLS Listing', 'Active', NULL, '2025-09-18', 104,
+'4 Eagle Rock Ext', '4 Eagle Rock Ext', NULL, 'Stoughton', 'MA', '02072',
+'Eagle Rock Passive Homes, at The Preserve at Pheasant Hill', 42.0835913, -71.1360553,
+'Single Family Residential', 4, 3.5, 4500, 10000, 2027,
+1695713.00, 377.00, NULL, NULL,
+NULL, NULL,
+'{"SALE TYPE": "MLS Listing", "PROPERTY TYPE": "Single Family Residential", "ADDRESS": "4 Eagle Rock Ext", "CITY": "Stoughton", "STATE OR PROVINCE": "MA", "ZIP OR POSTAL CODE": "02072", "PRICE": "1695713", "BEDS": "4", "BATHS": "3.5", "LOCATION": "Eagle Rock Passive Homes, at The Preserve at Pheasant Hill", "SQUARE FEET": "4500", "LOT SIZE": "10000", "YEAR BUILT": "2027", "DAYS ON MARKET": "104", "$/SQUARE FEET": "377", "STATUS": "Active", "URL": "https://www.redfin.com/MA/Stoughton/4-Eagle-Rock-Rd-02072/home/11723153", "SOURCE": "MLS PIN", "MLS#": "73432837", "INTERESTED": "Y", "LATITUDE": "42.0835913", "LONGITUDE": "-71.1360553"}',
+NOW(), NOW(), NOW()),
+
+-- Listing: 15-17 Morton Sq - Multi-Family (2-4 Unit)
+('st000001-0000-0000-0000-000000000022', 'REDFIN', '73426984', 'https://www.redfin.com/MA/Stoughton/15-17-Morton-Sq-02072/home/196604030', '73426984',
+'MLS Listing', 'Active', NULL, '2025-09-06', 116,
+'15-17 Morton Sq', '15-17 Morton Sq', NULL, 'Stoughton', 'MA', '02072',
+'Stoughton', 42.1229046, -71.1029955,
+'Multi-Family (2-4 Unit)', 4, 2.0, 1685, 5532, 1940,
+699999.00, 415.00, NULL, NULL,
+NULL, NULL,
+'{"SALE TYPE": "MLS Listing", "PROPERTY TYPE": "Multi-Family (2-4 Unit)", "ADDRESS": "15-17 Morton Sq", "CITY": "Stoughton", "STATE OR PROVINCE": "MA", "ZIP OR POSTAL CODE": "02072", "PRICE": "699999", "BEDS": "4", "BATHS": "2.0", "LOCATION": "Stoughton", "SQUARE FEET": "1685", "LOT SIZE": "5532", "YEAR BUILT": "1940", "DAYS ON MARKET": "116", "$/SQUARE FEET": "415", "STATUS": "Active", "URL": "https://www.redfin.com/MA/Stoughton/15-17-Morton-Sq-02072/home/196604030", "SOURCE": "MLS PIN", "MLS#": "73426984", "INTERESTED": "Y", "LATITUDE": "42.1229046", "LONGITUDE": "-71.1029955"}',
+NOW(), NOW(), NOW()),
+
+-- Listing: 2040 Central St - Single Family
+('st000001-0000-0000-0000-000000000023', 'REDFIN', '73420985', 'https://www.redfin.com/MA/Stoughton/2040-Central-St-02072/home/11724737', '73420985',
+'MLS Listing', 'Active', NULL, '2025-08-21', 132,
+'2040 Central St', '2040 Central St', NULL, 'Stoughton', 'MA', '02072',
+'Stoughton', 42.1335445, -71.1387574,
+'Single Family Residential', 4, 2.0, 2336, 15115, 1971,
+670000.00, 287.00, NULL, NULL,
+NULL, NULL,
+'{"SALE TYPE": "MLS Listing", "PROPERTY TYPE": "Single Family Residential", "ADDRESS": "2040 Central St", "CITY": "Stoughton", "STATE OR PROVINCE": "MA", "ZIP OR POSTAL CODE": "02072", "PRICE": "670000", "BEDS": "4", "BATHS": "2.0", "LOCATION": "Stoughton", "SQUARE FEET": "2336", "LOT SIZE": "15115", "YEAR BUILT": "1971", "DAYS ON MARKET": "132", "$/SQUARE FEET": "287", "STATUS": "Active", "URL": "https://www.redfin.com/MA/Stoughton/2040-Central-St-02072/home/11724737", "SOURCE": "MLS PIN", "MLS#": "73420985", "INTERESTED": "Y", "LATITUDE": "42.1335445", "LONGITUDE": "-71.1387574"}',
+NOW(), NOW(), NOW()),
+
+-- Listing: 26 Faxon St #2 - Condo
+('st000001-0000-0000-0000-000000000024', 'REDFIN', '73410258', 'https://www.redfin.com/MA/Stoughton/26-Faxon-St-02072/unit-2/home/11732807', '73410258',
+'MLS Listing', 'Active', NULL, '2025-07-27', 156,
+'26 Faxon St #2', '26 Faxon St', '#2', 'Stoughton', 'MA', '02072',
+'Stoughton', 42.1292686, -71.1046805,
+'Condo/Co-op', 2, 1.0, 985, NULL, 1970,
+305000.00, 310.00, NULL, 362.00,
+NULL, NULL,
+'{"SALE TYPE": "MLS Listing", "PROPERTY TYPE": "Condo/Co-op", "ADDRESS": "26 Faxon St #2", "CITY": "Stoughton", "STATE OR PROVINCE": "MA", "ZIP OR POSTAL CODE": "02072", "PRICE": "305000", "BEDS": "2", "BATHS": "1.0", "LOCATION": "Stoughton", "SQUARE FEET": "985", "YEAR BUILT": "1970", "DAYS ON MARKET": "156", "$/SQUARE FEET": "310", "HOA/MONTH": "362", "STATUS": "Active", "URL": "https://www.redfin.com/MA/Stoughton/26-Faxon-St-02072/unit-2/home/11732807", "SOURCE": "MLS PIN", "MLS#": "73410258", "INTERESTED": "Y", "LATITUDE": "42.1292686", "LONGITUDE": "-71.1046805"}',
+NOW(), NOW(), NOW()),
+
+-- Listing: 1600 West St - Vacant Land
+('st000001-0000-0000-0000-000000000025', 'REDFIN', '73407375', 'https://www.redfin.com/MA/Stoughton/1600-West-St-02072/home/12439427', '73407375',
+'MLS Listing', 'Active', NULL, '2025-07-20', 163,
+'1600 West St', '1600 West St', NULL, 'Stoughton', 'MA', '02072',
+'Stoughton', 42.090863, -71.115791,
+'Vacant Land', NULL, NULL, NULL, 71961, NULL,
+349000.00, NULL, NULL, NULL,
+NULL, NULL,
+'{"SALE TYPE": "MLS Listing", "PROPERTY TYPE": "Vacant Land", "ADDRESS": "1600 West St", "CITY": "Stoughton", "STATE OR PROVINCE": "MA", "ZIP OR POSTAL CODE": "02072", "PRICE": "349000", "LOCATION": "Stoughton", "LOT SIZE": "71961", "DAYS ON MARKET": "163", "STATUS": "Active", "URL": "https://www.redfin.com/MA/Stoughton/1600-West-St-02072/home/12439427", "SOURCE": "MLS PIN", "MLS#": "73407375", "INTERESTED": "Y", "LATITUDE": "42.090863", "LONGITUDE": "-71.115791"}',
+NOW(), NOW(), NOW()),
+
+-- Listing: Lot 1 Pondview Ln - Vacant Land
+('st000001-0000-0000-0000-000000000026', 'REDFIN', '73339839', 'https://www.redfin.com/MA/Stoughton/1-Pondview-Ln-02072/home/173464440', '73339839',
+'MLS Listing', 'Active', NULL, '2025-03-02', 304,
+'Lot 1 Pondview Ln', 'Lot 1 Pondview Ln', NULL, 'Stoughton', 'MA', '02072',
+'Stoughton', 42.1464309, -71.0851782,
+'Vacant Land', NULL, NULL, NULL, 29393, NULL,
+259900.00, NULL, NULL, NULL,
+NULL, NULL,
+'{"SALE TYPE": "MLS Listing", "PROPERTY TYPE": "Vacant Land", "ADDRESS": "Lot 1 Pondview Ln", "CITY": "Stoughton", "STATE OR PROVINCE": "MA", "ZIP OR POSTAL CODE": "02072", "PRICE": "259900", "LOCATION": "Stoughton", "LOT SIZE": "29393", "DAYS ON MARKET": "304", "STATUS": "Active", "URL": "https://www.redfin.com/MA/Stoughton/1-Pondview-Ln-02072/home/173464440", "SOURCE": "MLS PIN", "MLS#": "73339839", "INTERESTED": "Y", "LATITUDE": "42.1464309", "LONGITUDE": "-71.0851782"}',
 NOW(), NOW(), NOW());
 
 -- Insert user market listing preferences for testuser@test.com
@@ -862,6 +1149,26 @@ NOW(), NOW()),
 -- List 8: Investment Land
 ('ffffffff-8888-8888-8888-888888888888', '11111111-1111-1111-1111-111111111111',
 'Investment Land', 'Vacant land opportunities for development', '#4CAF50',
+NOW(), NOW()),
+
+-- List 9: Stoughton Multi-Family
+('ffffffff-9999-9999-9999-999999999999', '11111111-1111-1111-1111-111111111111',
+'Stoughton Multi-Family', 'Multi-family apartment buildings in Stoughton', '#FF5722',
+NOW(), NOW()),
+
+-- List 10: Stoughton Townhouses
+('ffffffff-aaaa-aaaa-aaaa-aaaaaaaaaaaa', '11111111-1111-1111-1111-111111111111',
+'Stoughton Townhouses', 'Townhouse and condo communities in Stoughton', '#795548',
+NOW(), NOW()),
+
+-- List 11: New Construction Stoughton
+('ffffffff-bbbb-bbbb-bbbb-bbbbbbbbbbbb', '11111111-1111-1111-1111-111111111111',
+'New Construction Stoughton', 'Brand new and under-construction homes in Stoughton', '#607D8B',
+NOW(), NOW()),
+
+-- List 12: Luxury Stoughton Homes
+('ffffffff-cccc-cccc-cccc-cccccccccccc', '11111111-1111-1111-1111-111111111111',
+'Luxury Stoughton Homes', 'High-end properties over $1M in Stoughton', '#9E9D24',
 NOW(), NOW());
 
 -- Insert list items - associating listings with custom lists
@@ -914,5 +1221,37 @@ INSERT INTO user_market_listing_list_items (
 
 -- Investment Land list
 ('ffffffff-8888-8888-8888-888888888888', 'bw000001-0000-0000-0000-000000000013', NOW()),  -- Lot 1 Mill
-('ffffffff-8888-8888-8888-888888888888', 'bw000001-0000-0000-0000-000000000023', NOW());  -- Lot 2 Fontana Way
+('ffffffff-8888-8888-8888-888888888888', 'bw000001-0000-0000-0000-000000000023', NOW()),  -- Lot 2 Fontana Way
+('ffffffff-8888-8888-8888-888888888888', 'st000001-0000-0000-0000-000000000011', NOW()),  -- Lot 4 West St
+('ffffffff-8888-8888-8888-888888888888', 'st000001-0000-0000-0000-000000000025', NOW()),  -- 1600 West St
+('ffffffff-8888-8888-8888-888888888888', 'st000001-0000-0000-0000-000000000026', NOW()),  -- Lot 1 Pondview Ln
+
+-- Stoughton Multi-Family list
+('ffffffff-9999-9999-9999-999999999999', 'st000001-0000-0000-0000-000000000003', NOW()),  -- 293 School St (15 units)
+('ffffffff-9999-9999-9999-999999999999', 'st000001-0000-0000-0000-000000000010', NOW()),  -- 84 Pearl St (8 units)
+('ffffffff-9999-9999-9999-999999999999', 'st000001-0000-0000-0000-000000000012', NOW()),  -- 100 Water St (40 units)
+('ffffffff-9999-9999-9999-999999999999', 'st000001-0000-0000-0000-000000000022', NOW()),  -- 15-17 Morton Sq
+
+-- Stoughton Townhouses list
+('ffffffff-aaaa-aaaa-aaaa-aaaaaaaaaaaa', 'st000001-0000-0000-0000-000000000001', NOW()),  -- 27 Rosewood Dr #27
+('ffffffff-aaaa-aaaa-aaaa-aaaaaaaaaaaa', 'st000001-0000-0000-0000-000000000007', NOW()),  -- 133 Greenbrook Dr #133
+('ffffffff-aaaa-aaaa-aaaa-aaaaaaaaaaaa', 'st000001-0000-0000-0000-000000000017', NOW()),  -- 64 Laurelwood Dr #64
+('ffffffff-aaaa-aaaa-aaaa-aaaaaaaaaaaa', 'st000001-0000-0000-0000-000000000019', NOW()),  -- 59 Rosewood Dr #59
+('ffffffff-aaaa-aaaa-aaaa-aaaaaaaaaaaa', 'st000001-0000-0000-0000-000000000013', NOW()),  -- 28 Faxon St #4
+('ffffffff-aaaa-aaaa-aaaa-aaaaaaaaaaaa', 'st000001-0000-0000-0000-000000000024', NOW()),  -- 26 Faxon St #2
+
+-- New Construction Stoughton list
+('ffffffff-bbbb-bbbb-bbbb-bbbbbbbbbbbb', 'st000001-0000-0000-0000-000000000002', NOW()),  -- 870 Turnpike St (2025)
+('ffffffff-bbbb-bbbb-bbbb-bbbbbbbbbbbb', 'st000001-0000-0000-0000-000000000009', NOW()),  -- 93 Palisades Cir (2025)
+('ffffffff-bbbb-bbbb-bbbb-bbbbbbbbbbbb', 'st000001-0000-0000-0000-000000000015', NOW()),  -- 25 Lawler Ln (2026)
+('ffffffff-bbbb-bbbb-bbbb-bbbbbbbbbbbb', 'st000001-0000-0000-0000-000000000016', NOW()),  -- 15 Lawler Ln (2026)
+('ffffffff-bbbb-bbbb-bbbb-bbbbbbbbbbbb', 'st000001-0000-0000-0000-000000000021', NOW()),  -- 4 Eagle Rock Ext (2027)
+
+-- Luxury Stoughton Homes list (over $1M)
+('ffffffff-cccc-cccc-cccc-cccccccccccc', 'st000001-0000-0000-0000-000000000009', NOW()),  -- 93 Palisades Cir ($1,499,900)
+('ffffffff-cccc-cccc-cccc-cccccccccccc', 'st000001-0000-0000-0000-000000000010', NOW()),  -- 84 Pearl St ($1,488,000)
+('ffffffff-cccc-cccc-cccc-cccccccccccc', 'st000001-0000-0000-0000-000000000012', NOW()),  -- 100 Water St ($7,900,000)
+('ffffffff-cccc-cccc-cccc-cccccccccccc', 'st000001-0000-0000-0000-000000000015', NOW()),  -- 25 Lawler Ln ($1,325,000)
+('ffffffff-cccc-cccc-cccc-cccccccccccc', 'st000001-0000-0000-0000-000000000016', NOW()),  -- 15 Lawler Ln ($1,225,000)
+('ffffffff-cccc-cccc-cccc-cccccccccccc', 'st000001-0000-0000-0000-000000000021', NOW());  -- 4 Eagle Rock Ext ($1,695,713)
 
