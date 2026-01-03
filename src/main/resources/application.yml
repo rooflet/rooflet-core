@@ -13,3 +13,8 @@ springdoc:
     operationsSorter: method
     tagsSorter: alpha
   show-actuator: true
+
+# Rooflet Application Configuration
+rooflet:
+  market-listings:
+    max-watched-zip-codes: 10

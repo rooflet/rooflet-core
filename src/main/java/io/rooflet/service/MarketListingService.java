@@ -9,6 +9,7 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 import java.math.BigDecimal;
+import java.util.Collections;
 import java.util.List;
 import java.util.UUID;
 
@@ -19,10 +20,26 @@ public class MarketListingService {
 
     private final MarketListingRepository marketListingRepository;
     private final UserMarketListingPreferenceRepository preferenceRepository;
+    private final UserZipCodePreferenceService zipCodePreferenceService;
 
     @Transactional(readOnly = true)
     public List<MarketListing> getAllMarketListings() {
         return marketListingRepository.findAll();
+    }
+
+    /**
+     * Get market listings filtered by user's watched zip codes
+     * Returns empty list if user has no watched zip codes
+     */
+    @Transactional(readOnly = true)
+    public List<MarketListing> getMarketListingsForUser(UUID userId) {
+        List<String> watchedZipCodes = zipCodePreferenceService.getUserWatchedZipCodesList(userId);
+
+        if (watchedZipCodes.isEmpty()) {
+            return Collections.emptyList();
+        }
+
+        return marketListingRepository.findByZipCodeIn(watchedZipCodes);
     }
 
     @Transactional(readOnly = true)

@@ -32,14 +32,17 @@ public class MarketListingController {
     private final MarketListingService marketListingService;
     private final AuthenticationService authenticationService;
 
-    @Operation(summary = "Get all market listings", description = "Retrieves a list of all market listings")
+    @Operation(summary = "Get all market listings",
+            description = "Retrieves market listings from the current user's watched zip codes. " +
+                    "Returns empty list if user has no watched zip codes configured.")
     @ApiResponses(value = {
             @ApiResponse(responseCode = "200", description = "Market listings retrieved successfully",
                     content = @Content(mediaType = "application/json", schema = @Schema(implementation = MarketListingResponse.class)))
     })
     @GetMapping
     public ResponseEntity<List<MarketListingResponse>> getAllMarketListings() {
-        List<MarketListing> listings = marketListingService.getAllMarketListings();
+        UUID userId = authenticationService.getCurrentUserId();
+        List<MarketListing> listings = marketListingService.getMarketListingsForUser(userId);
         List<MarketListingResponse> responses = listings.stream()
                 .map(MarketListingResponse::from)
                 .toList();

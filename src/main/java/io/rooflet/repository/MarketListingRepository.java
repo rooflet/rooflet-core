@@ -35,5 +35,8 @@ public interface MarketListingRepository extends JpaRepository<MarketListing, UU
 
     // Find by property type
     List<MarketListing> findByPropertyType(String propertyType);
+
+    // Find by zip codes (for user preferences)
+    List<MarketListing> findByZipCodeIn(List<String> zipCodes);
 }
 
